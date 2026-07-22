@@ -33,7 +33,7 @@
             "enable_media_overlay_desktop": true,
             "video_external": "",
             "header_menu_text_color": "#ffffff",
-            "banner_layout": "sage-hero-banner--full"
+            "banner_layout": "hero-banner--full"
           },
           "type": "slide"
         }

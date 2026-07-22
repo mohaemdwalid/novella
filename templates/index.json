@@ -15,7 +15,7 @@
         "slide_sage": {
           "type": "slide",
           "settings": {
-            "banner_layout": "sage-hero-banner--full",
+            "banner_layout": "hero-banner--full",
             "color_scheme": "scheme-2",
             "header_menu_text_color": "#ffffff",
             "heading": "",

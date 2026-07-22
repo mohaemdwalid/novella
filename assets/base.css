@@ -78,7 +78,7 @@ html.no-js .no-js-hidden {
 body:has(.shopify-section:first-child .header-is-transparent):not(:has(.section-header ~ .shopify-section-group-header-group)) main {
   margin-block-start: calc(-1 * var(--header-height, 0px));
 }
-body:has(.shopify-section:first-child .header-is-transparent):not(:has(.section-header ~ .shopify-section-group-header-group)) main>.shopify-section.section-sage-hero-banner:first-of-type .sage-hero-banner--full .sage-hero__content,
+body:has(.shopify-section:first-child .header-is-transparent):not(:has(.section-header ~ .shopify-section-group-header-group)) main > .shopify-section.section-hero-banner:first-of-type .hero-banner--full .hero-banner__content,
 body:has(.shopify-section:first-child .header-is-transparent):not(:has(.section-header ~ .shopify-section-group-header-group)) main > .shopify-section.section-page-banner:first-of-type div.gradient {
   padding-block-start: calc(var(--header-height, 0px) + var(--section-spacing-unit-size) * 2) !important;
 }

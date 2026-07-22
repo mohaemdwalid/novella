@@ -1,1 +1,114 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"text_slide_X7XQ9q":{"type":"text-slide","settings":{"content":"<p>New Collection<\/p>","icon":""}},"localization_FXcM4j":{"type":"localization","settings":{"show_on":"desktop"}},"link_pEAxig":{"type":"link","settings":{"show_on":"desktop","link_label":"Our Stores","link":"\/","icon":"store"}},"cee0c4f6-5546-43a3-bfc3-2f3afa36d9d5":{"type":"text-slide","settings":{"content":"<p>Discover the Elegance of Novella<\/p>","icon":""}},"link_h8t4xz":{"type":"link","settings":{"show_on":"desktop","link_label":"New Products","link":"\/","icon":"theme-box"}}},"block_order":["text_slide_X7XQ9q","localization_FXcM4j","link_pEAxig","cee0c4f6-5546-43a3-bfc3-2f3afa36d9d5","link_h8t4xz"],"settings":{"text_block_behaviour":"marquee","slider_autoplay_interval":2,"font_weight":"500","section_width":"max-w-fluid","color_scheme":"scheme-bc0ea7dd-ae94-4089-83f5-d9f3aacd59ed"}},"header":{"type":"header","settings":{"layout":"","sticky":true,"nav_items_border":false,"drawer_layer":true,"logo":"shopify:\/\/shop_images\/Untitled_-_July_16_2026_at_22.36.32.png","logo_svg_code":"","logo_width":100,"logo_width_mobile":92,"logo_font_size":1,"transparent_header_bottom_border":true,"country_drawer_header":true,"country_drawer_navigation_menu":true,"utils_link_display":"icon","first_additional_link_title":"","first_additional_link_url":"#","second_additional_link_title":"","second_additional_link_url":"","menu":"main-menu","menu_mobile":"","submenu":"","menu_mobile_card_column_count":"2","link_size":"xs","parent_link_size":"md","parent_without_submenu_size":"lg","submenu_text_transform":"uppercase","spacing_between_cards":"2","card_aspect_ratio":"3\/4","card_aspect_ratio_mobile":"3\/4","megamenu_dropdown_column_width":23.4,"section_width":"max-w-fluid","color_scheme":"scheme-1","color_scheme_for_dropdown":"","color_scheme_for_drawer":""}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "text_slide_X7XQ9q": {
+          "type": "text-slide",
+          "settings": {
+            "content": "<p>New Collection</p>",
+            "icon": ""
+          }
+        },
+        "localization_FXcM4j": {
+          "type": "localization",
+          "settings": {
+            "show_on": "desktop"
+          }
+        },
+        "link_pEAxig": {
+          "type": "link",
+          "settings": {
+            "show_on": "desktop",
+            "link_label": "Our Stores",
+            "link": "/",
+            "icon": "store"
+          }
+        },
+        "cee0c4f6-5546-43a3-bfc3-2f3afa36d9d5": {
+          "type": "text-slide",
+          "settings": {
+            "content": "<p>Discover the Elegance of Novella</p>",
+            "icon": ""
+          }
+        },
+        "link_h8t4xz": {
+          "type": "link",
+          "settings": {
+            "show_on": "desktop",
+            "link_label": "New Products",
+            "link": "/",
+            "icon": "theme-box"
+          }
+        }
+      },
+      "block_order": [
+        "text_slide_X7XQ9q",
+        "localization_FXcM4j",
+        "link_pEAxig",
+        "cee0c4f6-5546-43a3-bfc3-2f3afa36d9d5",
+        "link_h8t4xz"
+      ],
+      "settings": {
+        "text_block_behaviour": "marquee",
+        "slider_autoplay_interval": 2,
+        "font_weight": "500",
+        "section_width": "max-w-fluid",
+        "color_scheme": "scheme-bc0ea7dd-ae94-4089-83f5-d9f3aacd59ed"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "layout": "",
+        "sticky": true,
+        "nav_items_border": false,
+        "drawer_layer": true,
+        "logo": "shopify://shop_images/Screenshot_2026-02-06_at_6.43.19_PM-removebg-preview.png",
+        "logo_svg_code": "",
+        "logo_width": 100,
+        "logo_width_mobile": 92,
+        "logo_font_size": 1,
+        "transparent_header_bottom_border": true,
+        "country_drawer_header": true,
+        "country_drawer_navigation_menu": true,
+        "utils_link_display": "icon",
+        "first_additional_link_title": "",
+        "first_additional_link_url": "#",
+        "second_additional_link_title": "",
+        "second_additional_link_url": "",
+        "menu": "main-menu",
+        "menu_mobile": "",
+        "submenu": "",
+        "menu_mobile_card_column_count": "2",
+        "link_size": "xs",
+        "parent_link_size": "md",
+        "parent_without_submenu_size": "lg",
+        "submenu_text_transform": "uppercase",
+        "spacing_between_cards": "2",
+        "card_aspect_ratio": "3/4",
+        "card_aspect_ratio_mobile": "3/4",
+        "megamenu_dropdown_column_width": 23.4,
+        "section_width": "max-w-fluid",
+        "color_scheme": "scheme-1",
+        "color_scheme_for_dropdown": "",
+        "color_scheme_for_drawer": ""
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

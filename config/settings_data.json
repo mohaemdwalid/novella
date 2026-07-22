@@ -117,8 +117,7 @@
           "placeholder": "#f2f3f7",
           "shadow": "#111111",
           "rating_stars": "#111111"
-        },
-        "name": "Scheme 1"
+        }
       },
       "scheme-2": {
         "settings": {
@@ -138,8 +137,7 @@
           "placeholder": "#f2f3f7",
           "shadow": "#111111",
           "rating_stars": "#111111"
-        },
-        "name": "Scheme 2"
+        }
       },
       "scheme-3": {
         "settings": {
@@ -159,8 +157,7 @@
           "placeholder": "#f2f3f7",
           "shadow": "#111111",
           "rating_stars": "#111111"
-        },
-        "name": "Scheme 3"
+        }
       },
       "scheme-4": {
         "settings": {
@@ -180,8 +177,7 @@
           "placeholder": "#f2f3f7",
           "shadow": "#111111",
           "rating_stars": "#111111"
-        },
-        "name": "Scheme 4"
+        }
       },
       "scheme-5": {
         "settings": {
@@ -201,8 +197,7 @@
           "placeholder": "#f2f3f7",
           "shadow": "#111111",
           "rating_stars": "#111111"
-        },
-        "name": "Scheme 5"
+        }
       },
       "scheme-6": {
         "settings": {
@@ -222,8 +217,7 @@
           "placeholder": "#f2f3f7",
           "shadow": "#111111",
           "rating_stars": "#111111"
-        },
-        "name": "Scheme 6"
+        }
       },
       "scheme-7": {
         "settings": {
@@ -243,8 +237,7 @@
           "placeholder": "#f2f3f7",
           "shadow": "#111111",
           "rating_stars": "#111111"
-        },
-        "name": "Scheme 7"
+        }
       },
       "scheme-8": {
         "settings": {
@@ -264,8 +257,7 @@
           "placeholder": "#f2f3f7",
           "shadow": "#111111",
           "rating_stars": "#111111"
-        },
-        "name": "Scheme 8"
+        }
       },
       "scheme-bc0ea7dd-ae94-4089-83f5-d9f3aacd59ed": {
         "settings": {
@@ -285,8 +277,7 @@
           "placeholder": "#ffffff",
           "shadow": "#111111",
           "rating_stars": "#ffffff"
-        },
-        "name": "Custom Scheme"
+        }
       }
     },
     "installed_preset_name": "Novella"
@@ -411,8 +402,7 @@
             "placeholder": "#f2f3f7",
             "shadow": "#111111",
             "rating_stars": "#111111"
-          },
-          "name": "Scheme 1"
+          }
         },
         "scheme-2": {
           "settings": {
@@ -432,8 +422,7 @@
             "placeholder": "#f2f3f7",
             "shadow": "#111111",
             "rating_stars": "#111111"
-          },
-          "name": "Scheme 2"
+          }
         },
         "scheme-3": {
           "settings": {
@@ -453,8 +442,7 @@
             "placeholder": "#f2f3f7",
             "shadow": "#111111",
             "rating_stars": "#111111"
-          },
-          "name": "Scheme 3"
+          }
         },
         "scheme-4": {
           "settings": {
@@ -474,8 +462,7 @@
             "placeholder": "#f2f3f7",
             "shadow": "#111111",
             "rating_stars": "#111111"
-          },
-          "name": "Scheme 4"
+          }
         },
         "scheme-5": {
           "settings": {
@@ -495,8 +482,7 @@
             "placeholder": "#f2f3f7",
             "shadow": "#111111",
             "rating_stars": "#111111"
-          },
-          "name": "Scheme 5"
+          }
         },
         "scheme-6": {
           "settings": {
@@ -516,8 +502,7 @@
             "placeholder": "#f2f3f7",
             "shadow": "#111111",
             "rating_stars": "#111111"
-          },
-          "name": "Scheme 6"
+          }
         },
         "scheme-7": {
           "settings": {
@@ -537,8 +522,7 @@
             "placeholder": "#f2f3f7",
             "shadow": "#111111",
             "rating_stars": "#111111"
-          },
-          "name": "Scheme 7"
+          }
         },
         "scheme-8": {
           "settings": {
@@ -558,8 +542,7 @@
             "placeholder": "#f2f3f7",
             "shadow": "#111111",
             "rating_stars": "#111111"
-          },
-          "name": "Scheme 8"
+          }
         },
         "scheme-bc0ea7dd-ae94-4089-83f5-d9f3aacd59ed": {
           "settings": {
@@ -579,8 +562,7 @@
             "placeholder": "#ffffff",
             "shadow": "#111111",
             "rating_stars": "#ffffff"
-          },
-          "name": "Custom Scheme"
+          }
         }
       }
     }

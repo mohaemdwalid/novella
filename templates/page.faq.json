@@ -1,0 +1,107 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "15d37dcd-dfe5-404c-80f1-8f76c2017e23": {
+      "type": "accordions",
+      "blocks": {
+        "template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-0": {
+          "type": "topic",
+          "settings": {
+            "is_open": true,
+            "title": "Can I return or refund my order?",
+            "text": "<p>No refund is available once the order has been confirmed and entered into preparation. Each order is prepared based on the information provided during checkout, so please make sure all required details are entered correctly and clearly before confirming your order.</p><p>If you need a change after confirming the order, please contact us as soon as possible via WhatsApp. Our team will review the order status and let you know whether the requested modification is still possible.</p>",
+            "page": ""
+          }
+        },
+        "template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-1": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Are there any shipping costs?",
+            "text": "<p>Shipping inside Qatar is 50 QAR. Shipping outside Qatar is 100 QAR. If any additional shipping cost is required based on the destination or courier requirements, we will contact you before proceeding.</p>",
+            "page": ""
+          }
+        },
+        "template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-2": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Can I still change my order?",
+            "text": "<p>Yes, but only if the order status still allows it. If you wish to make any specific modification to the product, such as changing the color, size, or adding any additional notes, please write them clearly in the Notes section before completing the order so they can be considered during preparation.</p><p>If you want to make a change after the order is confirmed, contact us as soon as possible via WhatsApp. Our team will review the order and inform you whether the modification is possible based on the stage of preparation.</p>",
+            "page": ""
+          }
+        },
+        "topic_34YiQt": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "What happens at delivery if I need an adjustment?",
+            "text": "<p>Upon arrival, the delivery representative will wait outside the location for no more than 5 minutes so the customer can try the abaya and quickly check the size and style.</p><p>If any modification is needed while the delivery representative is present, the abaya will be handed over directly to them for repair or alteration, and it will be returned after the adjustment is completed according to the timeframe set by our team.</p><p>All modifications depend on the order condition and the feasibility of making changes. Our team will review the request and confirm the required details before starting any adjustment.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-0",
+        "template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-1",
+        "template--17062096503099__15d37dcd-dfe5-404c-80f1-8f76c2017e23-16696259764c4b7b62-2",
+        "topic_34YiQt"
+      ],
+      "settings": {
+        "heading": "Orders & shipping",
+        "heading_size": "h3",
+        "section_width": "max-w-narrower",
+        "color_scheme": "scheme-1",
+        "spacing_top": "4",
+        "spacing_bottom": "4"
+      }
+    },
+    "accordions": {
+      "type": "accordions",
+      "blocks": {
+        "06f97daa-496a-417b-aa49-d8a47260cf78": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "Do I have to create an account?",
+            "text": "<p>No, you don't have to create an account. However, we strongly recommend that you create an account so that you can take advantage of the various benefits it offers. For example, you will be able to access your account easily the next time you visit us, and you will also be able to get personalized recommendations and services tailored to your needs. By creating an account with us, you will be able to make the most out of our services and save time in the future.</p>",
+            "page": ""
+          }
+        },
+        "e957eb44-fbe4-4f40-a034-48a4d0a4099a": {
+          "type": "topic",
+          "settings": {
+            "is_open": false,
+            "title": "How do I change my account password?",
+            "text": "<p>If you have forgotten your password, don't worry. You can easily reset it by clicking the 'forgot password' link. Once you click the link, you will receive an email with instructions on how to create a new password. Follow the instructions to set a new password that is secure and easy to remember. Remember to keep your password safe and never share it with anyone.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "06f97daa-496a-417b-aa49-d8a47260cf78",
+        "e957eb44-fbe4-4f40-a034-48a4d0a4099a"
+      ],
+      "settings": {
+        "heading": "Account info",
+        "heading_size": "h3",
+        "section_width": "max-w-narrower",
+        "color_scheme": "scheme-1",
+        "spacing_top": "2",
+        "spacing_bottom": "6"
+      }
+    }
+  },
+  "order": [
+    "15d37dcd-dfe5-404c-80f1-8f76c2017e23",
+    "accordions"
+  ]
+}

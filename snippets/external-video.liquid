@@ -1,0 +1,51 @@
+{% comment %}
+  Renders autoplay video ifram
+  Accepts:
+  - video: {Ojbect} Shopify video object
+  - title: {String} Video title
+  - class?: {String} Video class
+  - params?: {String} Video parameters
+
+  Usage:
+  {%- render 'external-video', video: _video, title: 'Autoplay video' -%}
+{% endcomment %}
+
+{%- liquid
+  assign video_title = title | default: ''
+  assign video_class = class | default: 'video'
+  assign current_video_id = video_id | default: video.id
+  assign current_video_type = video_type | default: video.type
+
+  assign controls_value = 1
+  unless controls
+    assign controls_value = 0
+  endunless
+
+  assign youtube_container = youtube_container | default: false
+
+  if current_video_type == 'youtube'
+    assign params_default = 'autoplay=1&controls=' | append: controls_value | append: '&fs=0&loop=1&playsinline=1&mute=1&iv_load_policy=3&rel=0&enablejsapi=1&disablekb=1&enablejsapi=1&color=white'
+    assign params = params | default: params_default | append: '&playlist=' | append: current_video_id
+    assign video_url = 'https://www.youtube.com/embed/' | append: current_video_id | append: '?' | append: params
+    assign video_class = video_class | append: ' js-youtube'
+  else
+    assign params_default = 'autopause=0&autoplay=1&background=1&byline=0&loop=1&muted=1&playsinline=1&title=0&transparent=0&keyboard=0&controls=' | append: controls_value
+    assign params = params | default: params_default
+    assign video_url = 'https://player.vimeo.com/video/' | append: current_video_id | append: '?' | append: params
+    assign video_class = video_class | append: ' js-vimeo'
+  endif
+-%}
+
+{%- if current_video_type == 'youtube' and youtube_container -%}
+<div class="youtube-container">
+{%- endif -%}
+<iframe
+  src="{{- video_url -}}"
+  class="{{- video_class -}}"
+  allow="autoplay; encrypted-media"
+  allowfullscreen
+  title="{{- video_title -}}"
+></iframe>
+{%- if current_video_type == 'youtube' and youtube_container -%}
+</div>
+{%- endif -%}

@@ -1,0 +1,39 @@
+/* Badges / Product card */
+.product__title--with-badges {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product-card__badges {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.product-card__badge {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0.6rem 0.8rem;
+  font-size: var(--font-size-static-xs);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-static-sm);
+  letter-spacing: 0.14rem;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: rgba(var(--color-tag-foreground));
+  background-color: rgba(var(--color-tag-background));
+}
+
+.product-card__badge.product-card__badge--square {
+  border-radius: 0;
+}
+
+.product-card__badge.product-card__badge--rounded {
+  border-radius: 0.4rem;
+}
+
+.product-card__badge--discount {
+  color: var(--color-badge-discount-foreground);
+  background-color: var(--color-badge-discount-background);
+}

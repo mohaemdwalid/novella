@@ -1,0 +1,46 @@
+{% comment %}
+  Shared quantity input renderer.
+{% endcomment %}
+
+{%- liquid
+  assign quantity_value = value | default: 1
+  assign quantity_name = name | default: 'quantity'
+  assign quantity_min = min | default: 1
+  assign quantity_max = max | default: 99
+  assign quantity_index = index | default: product_ref.id
+  assign quantity_context = context | default: blank
+  assign quantity_id = 'ProductQuantity-' | append: quantity_index | append: '-' | append: quantity_context
+
+  if cart_item
+    assign quantity_id = quantity_id | append: 'cart-item'
+  endif
+-%}
+
+<quantity-input class="quantity{% if compact %} quantity--compact{% endif %} field">
+  <label for="{{- quantity_id -}}" class="{% if hide_label %}visually-hidden{% else %}field__label{% endif %}">
+    {{- 'product.quantity' | t -}}:
+  </label>
+
+  <div class="quantity__wrapper">
+    <button class="quantity__button" name="decrement" type="button">
+      <span class="visually-hidden">{{- 'product.quantity_decrease_for_product' | t: product: product_ref.title | escape -}}</span>
+      {%- render 'icon', icon_name: 'theme-minus', class: 'icon' -%}
+    </button>
+
+    <input
+      class="quantity__input"
+      type="number"
+      name="{{- quantity_name -}}"
+      id="{{- quantity_id -}}"
+      min="{{- quantity_min -}}"
+      max="{{- quantity_max -}}"
+      value="{{- quantity_value -}}"
+      {% if index %}data-index="{{- index -}}"{% endif %}
+    >
+
+    <button class="quantity__button" name="increment" type="button">
+      <span class="visually-hidden">{{- 'product.quantity_increase_for_product' | t: product: product_ref.title | escape -}}</span>
+      {%- render 'icon', icon_name: 'theme-plus', class: 'icon' -%}
+    </button>
+  </div>
+</quantity-input>

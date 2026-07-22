@@ -1,0 +1,12 @@
+{%- liquid
+  assign icon_text = 'cart.label' | t
+  assign item_count = cart.item_count
+-%}
+{%- render 'icon', icon_name: 'theme-bag', text: icon_text, class: 'header__utils-link--icon' -%}
+<span class="cart-count-badge{% if cart.item_count == 0 %} hidden{% endif %}">
+  {%- if item_count > 99 -%}
+    +
+  {%- elsif item_count != 0 -%}
+    {{- item_count -}}
+  {%- endif -%}
+</span>

@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "order": [
+    "main"
+  ],
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "info_content": "<p>The order is prepared based on the information provided during the checkout process. Please make sure that all required details are entered correctly and clearly before confirming the order.</p><p>If you wish to make any specific modifications to the product, such as changing the color, size, or adding any additional notes regarding the order, please write them clearly in the Notes section before completing the order so they can be considered during preparation.</p><p>The order is approved by our team after all steps of the order are fully completed and all required information is verified.</p><p>If you wish to make any changes after confirming the order, please contact us as soon as possible via WhatsApp. Our team will review the order and inform you whether the modification is possible based on the order status and stage of preparation.</p><p>Orders are prepared within 2 to 5 business days. The preparation time may vary depending on the type of order, availability of size or color, and the volume of orders at the time of purchase.</p><p>Shipping inside Qatar is 50 QAR. Shipping outside Qatar is 100 QAR. If any additional shipping cost is required, we will contact you before proceeding.</p><p>We always ensure that the order is carefully prepared and reviewed before delivery to confirm it matches the details and notes provided by the customer during checkout. Therefore, please make sure all required information is clearly entered before confirming your order.</p><p>Upon arrival, the delivery representative will wait outside the location for no more than 5 minutes to allow the customer to try the abaya and quickly check the size and style.</p><p>If any modification is needed while the delivery representative is present, the abaya will be handed over directly to them for repair or alteration, and it will be returned to the customer after the adjustment is completed according to the timeframe set by our team.</p><p>If the delivery representative leaves the location and the customer later requests any modification or repair, a new delivery fee will be applied for sending and receiving the order again.</p><p>Please note that modifications depend on the order condition and the feasibility of making changes. Our team will review the order and inform the customer of the required details before starting any modification.</p><p>No refund is available once the order has been confirmed and entered into preparation.</p>",
+        "info_title": "Delivery, Returns & No Refund Policy",
+        "show_page_title": false,
+        "breadcrumbs": true,
+        "page_title_alignment": "text-center",
+        "section_width": "max-w-narrower",
+        "color_scheme": "scheme-1",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    }
+  }
+}

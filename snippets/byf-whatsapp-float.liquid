@@ -1,0 +1,61 @@
+<a
+  href="https://wa.me/97477218822"
+  class="byf-whatsapp-float"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="WhatsApp +974 7721 8822"
+  title="WhatsApp +974 7721 8822"
+>
+  <span class="byf-whatsapp-float__icon">
+    {% render 'icon', icon_name: 'brand-whatsapp' %}
+  </span>
+</a>
+
+<style>
+  .byf-whatsapp-float {
+    position: fixed;
+    inset-inline-end: 2rem;
+    inset-block-end: 2rem;
+    z-index: var(--z-fab);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 999px;
+    background: #25d366;
+    color: #ffffff;
+    box-shadow: 0 1.2rem 3rem rgba(0, 0, 0, 0.18);
+    transition: transform var(--duration-default), box-shadow var(--duration-default);
+  }
+
+  .byf-whatsapp-float:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.22);
+  }
+
+  .byf-whatsapp-float__icon {
+    display: inline-flex;
+    width: 4.1rem;
+    height: 4.1rem;
+  }
+
+  .byf-whatsapp-float__icon svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 749px) {
+    .byf-whatsapp-float {
+      inset-inline-end: 1.6rem;
+      inset-block-end: 1.6rem;
+      width: 5.8rem;
+      height: 5.8rem;
+    }
+
+    .byf-whatsapp-float__icon {
+      width: 3.7rem;
+      height: 3.7rem;
+    }
+  }
+</style>

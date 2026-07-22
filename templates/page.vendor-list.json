@@ -1,0 +1,38 @@
+{
+  "order": [
+    "main",
+    "vendor_list_nyaLzD"
+  ],
+  "sections": {
+    "vendor_list_nyaLzD": {
+      "settings": {
+        "spacing_bottom": "2",
+        "spacing_top": "2",
+        "section_width": "max-w-page",
+        "content_alignment": "center",
+        "color_scheme_for_cards": "",
+        "color_scheme": "",
+        "metaobject_for_section": "",
+        "show_navigation": "both",
+        "show_vendor_logo": false
+      },
+      "name": "t:sections.vendor-list.name",
+      "disabled": true,
+      "type": "vendor-list"
+    },
+    "main": {
+      "settings": {
+        "spacing_bottom": "2",
+        "spacing_top": "2",
+        "color_scheme": "",
+        "section_width": "max-w-narrower",
+        "info_content": "",
+        "info_title": "",
+        "page_title_alignment": "text-center",
+        "show_page_title": true,
+        "breadcrumbs": true
+      },
+      "type": "main-page"
+    }
+  }
+}

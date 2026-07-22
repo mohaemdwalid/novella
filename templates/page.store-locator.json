@@ -1,0 +1,90 @@
+{
+  "order": [
+    "main",
+    "store_locator_V8hHiz"
+  ],
+  "sections": {
+    "store_locator_V8hHiz": {
+      "settings": {
+        "spacing_bottom": "6",
+        "spacing_top": "4",
+        "color_scheme": "",
+        "section_width": "max-w-page",
+        "zoom_level": 4,
+        "api_key": "AIzaSyCiRMr5xuVSyPUqZJgruIeFe4U5vrV0Cjc",
+        "cards_height_mobile": 60,
+        "cards_height": 80,
+        "image_grid_columns": "auto",
+        "layout": "map",
+        "heading": "Our <em>flagship stores</em>"
+      },
+      "block_order": [
+        "pin_8wMgw8",
+        "pin_g3VPYj",
+        "pin_wk3MrQ"
+      ],
+      "blocks": {
+        "pin_wk3MrQ": {
+          "settings": {
+            "color_scheme": "scheme-1",
+            "store_pin_link": "",
+            "store_pin": "",
+            "store_tel": "",
+            "button_style": "button--outlined",
+            "coordinate_title": "",
+            "store_longitude": "",
+            "store_latitude": "",
+            "store_opening_hours": "",
+            "store_address": "Piazza del Colosseo, 1"
+          },
+          "type": "pin"
+        },
+        "pin_g3VPYj": {
+          "settings": {
+            "color_scheme": "",
+            "store_pin_link": "",
+            "store_pin": "Directions",
+            "store_tel": "+01 234 567 8900",
+            "button_style": "button--outlined",
+            "coordinate_title": "",
+            "store_longitude": "12.45445667605574",
+            "store_latitude": "41.902331905731444",
+            "store_opening_hours": "<p>Mon-Sat: 10am-8pm<br/>Sunday</p>",
+            "store_address": "Champ de Mars, 5 Av. Anatole"
+          },
+          "type": "pin"
+        },
+        "pin_8wMgw8": {
+          "settings": {
+            "color_scheme": "scheme-1",
+            "store_pin_link": "",
+            "store_pin": "Directions",
+            "store_tel": "+01 234 567 8900",
+            "button_style": "button--outlined",
+            "coordinate_title": "",
+            "store_longitude": "2.294803163425021",
+            "store_latitude": "48.85850418716008",
+            "store_opening_hours": "<p>Mon-Sat: 10am-8pm<br/>Sunday</p>",
+            "store_address": "Ellermanstraat 14"
+          },
+          "type": "pin"
+        }
+      },
+      "type": "store-locator"
+    },
+    "main": {
+      "settings": {
+        "spacing_bottom": "2",
+        "spacing_top": "2",
+        "color_scheme": "",
+        "section_width": "max-w-narrower",
+        "info_content": "",
+        "info_title": "",
+        "show_page_title": true,
+        "breadcrumbs": true
+      },
+      "disabled": true,
+      "type": "main-page"
+    }
+  }
+}

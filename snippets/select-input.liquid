@@ -1,0 +1,52 @@
+{% comment %}
+  Shared select input renderer.
+{% endcomment %}
+
+{%- liquid
+  assign select_id = id | default: blank
+  assign select_label = label | default: blank
+  assign select_name = name | default: blank
+  assign select_options = options | default: blank
+  assign select_element = element | default: 'dropdown-input'
+  assign select_attr = attr | default: blank
+  assign option_name = select_name | split: '[' | last | split: ']' | first
+-%}
+
+<{{- select_element -}}>
+  <select
+    {% if select_name != blank %}name="{{- select_name -}}"{% endif %}
+    {% if select_id != blank %}id="{{- select_id -}}"{% endif %}
+    {% if select_attr != blank %}{{ select_attr }}{% endif %}
+  >
+    {{- select_options -}}
+  </select>
+
+  <template data-name="option">
+    <li class="dropdown__item" data-item>
+      <button type="button" class="dropdown__item-button"></button>
+    </li>
+  </template>
+
+  <template data-name="details">
+    <details class="dropdown disclosure-has-popup no-js-hidden">
+      <summary class="dropdown__summary">
+        {%- if select_label != blank -%}
+          <div class="dropdown__label">{{- select_label | escape -}}</div>
+        {%- endif -%}
+
+        <div class="dropdown__button" data-option-name="{{- option_name -}}">
+          {% if swatch_value %}
+            {% render 'swatch', swatch: swatch_value, shape: shape %}
+          {% endif %}
+
+          <span data-label>{{- select_label | escape -}}</span>
+          {% render 'icon', icon_name: 'theme-chevron-down', class: 'icon' %}
+        </div>
+      </summary>
+
+      <div class="dropdown__list">
+        <ul class="dropdown__items list-unstyled" data-options></ul>
+      </div>
+    </details>
+  </template>
+</{{- select_element -}}>

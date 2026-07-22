@@ -1,0 +1,51 @@
+{% comment %}
+  Shared text input renderer.
+{% endcomment %}
+
+{%- liquid
+  assign wrapper_class = class | default: blank
+  assign input_id = id | default: blank
+  assign input_label = label | default: blank
+  assign input_type = type | default: 'text'
+  assign input_name = name | default: blank
+  assign input_placeholder = placeholder | default: blank
+  assign input_value = value | default: blank
+  assign input_required = required | default: false
+  assign input_min = min | default: blank
+  assign input_max = max | default: blank
+  assign input_readonly = readonly | default: false
+  assign input_attr = attr | default: blank
+  assign input_message = message | default: blank
+  assign input_has_error = has_error | default: false
+  assign input_checked = checked | default: false
+  assign input_hide_label = hide_label | default: false
+-%}
+
+<div class="field{% if input_has_error %} has-error{% endif %}{% if wrapper_class != blank %} {{- wrapper_class -}}{% endif %}" data-input-wrapper>
+  {%- if input_label != blank and input_id != blank -%}
+    <label for="{{- input_id -}}" class="field__label{% if input_hide_label %} visually-hidden{% endif %}">{{- input_label -}}</label>
+  {%- endif -%}
+
+  <input
+    type="{{- input_type -}}"
+    class="field__input{{ input_class }}"
+    {% if input_id != blank %}id="{{- input_id -}}"{% endif %}
+    {% if input_name != blank %}name="{{- input_name -}}"{% endif %}
+    {% if input_placeholder != blank %}placeholder="{{- input_placeholder -}}"{% endif %}
+    {% if input_value != blank %}value="{{- input_value -}}"{% endif %}
+    {% if input_required %}required{% endif %}
+    {% if input_readonly %}readonly{% endif %}
+    {% if input_min != blank %}min="{{- input_min -}}"{% endif %}
+    {% if input_max != blank %}max="{{- input_max -}}"{% endif %}
+    {% if input_required and input_type == 'password' %}minlength="5"{% endif %}
+    {% if input_required and input_type == 'email' %}pattern="^([a-zA-Z0-9_\\-\\+\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,9})$"{% endif %}
+    {% if input_attr != blank %}{{ input_attr }}{% endif %}
+    {% if input_checked %}checked{% endif %}
+  >
+
+  <span
+    class="field__message{% if input_message == blank %} hidden{% endif %}"
+    data-message
+    {% if input_message != blank and input_has_error == false %}tabindex="-1" autofocus{% endif %}
+  >{{- input_message -}}</span>
+</div>

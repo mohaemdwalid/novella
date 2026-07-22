@@ -1,0 +1,66 @@
+{%- comment -%}
+  Shared newsletter form renderer.
+{%- endcomment -%}
+
+{%- liquid
+  assign newsletter_namespace = namespace | default: 'Newsletter'
+  assign newsletter_form_class = 'newsletter-form'
+  if js_class != blank
+    assign newsletter_form_class = newsletter_form_class | append: ' ' | append: js_class
+  endif
+
+  assign newsletter_submit_text = submit_button_text | default: 'theme.newsletter.button_label' | t
+  assign newsletter_label = 'theme.newsletter.label' | t
+  assign newsletter_id = 'NewsletterForm--' | append: section.id
+  assign newsletter_message = blank
+  assign newsletter_has_error = false
+
+  if form.errors
+    assign newsletter_message = form.errors.translated_fields.email | capitalize | append: ' ' | append: form.errors.messages.email
+    assign newsletter_has_error = true
+  elsif form.posted_successfully?
+    assign newsletter_message = 'theme.newsletter.success' | t
+  endif
+-%}
+
+{%- form 'customer', id: newsletter_namespace, class: newsletter_form_class -%}
+  <input type="hidden" name="contact[tags]" value="newsletter">
+
+  <div class="field newsletter__field{% if newsletter_has_error %} has-error{% endif %}" data-input-wrapper>
+    <label for="{{- newsletter_id -}}" class="field__label visually-hidden">{{- newsletter_label -}}</label>
+    <div class="field__input-wrapper">
+      <input class="field__input" type="email"
+        name="contact[email]"
+        value="{{- form.email -}}"
+        id="{{- newsletter_id -}}"
+        placeholder="{{- 'theme.newsletter.email_placeholder' | t -}}"
+        required
+        pattern="^([a-zA-Z0-9_\-\+\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,9})$"
+        aria-required="true"
+        autocapitalize="off"
+        autocomplete="email"
+        {% if form.errors %}autofocus{% endif %}
+      />
+      <button type="submit" class="button" id="Subscribe-{{- section.id -}}" name="commit" aria-label="{{- newsletter_submit_text -}}">
+        {{- newsletter_submit_text -}}
+      </button>
+    </div>
+
+    <span class="field__message{% if newsletter_message == blank %} hidden{% endif %}"
+      data-message
+      {% if newsletter_message != blank and newsletter_has_error == false %} tabindex="-1" autofocus{% endif %}
+    >{{- newsletter_message -}}</span>
+  </div>
+
+  {% if settings.show_newsletter_form_terms %}
+    {%- assign terms_text = settings.newsletter_form_terms | replace: '<p>', '' | replace: '</p>', '' -%}
+    <div class="newsletter__terms">
+      <div class="checkbox checkbox--plain">
+        <input type="checkbox" name="terms" required id="Terms-Conditions-{{- section.id -}}">
+        <label for="Terms-Conditions-{{- section.id -}}">
+          {{- terms_text -}}
+        </label>
+      </div>
+    </div>
+  {% endif %}
+{%- endform -%}

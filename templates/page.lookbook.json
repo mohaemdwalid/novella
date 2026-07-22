@@ -1,0 +1,268 @@
+{
+  "order": [
+    "main",
+    "page_banner_jgHx3d",
+    "featured_collections_BNkWXJ",
+    "seo_content_XJ6KGr",
+    "full_width_banner_H7TeAA",
+    "featured_products_MAtb9j",
+    "shop_the_look_VNkfEp"
+  ],
+  "sections": {
+    "shop_the_look_VNkfEp": {
+      "settings": {
+        "spacing_bottom": "0",
+        "spacing_top": "0",
+        "color_scheme": "scheme-5",
+        "section_width": "max-w-full",
+        "aspect_ratio_mobile": "auto",
+        "aspect_ratio": "3/4",
+        "show_dots": true,
+        "reverse_positions": true,
+        "section_layout": "dual-content",
+        "heading_size": "h3",
+        "heading": "Shop the look"
+      },
+      "block_order": [
+        "slide_HCPHFe",
+        "slide_Y9RyYy"
+      ],
+      "blocks": {
+        "slide_Y9RyYy": {
+          "settings": {
+            "dot_position_vertical": 65,
+            "dot_position_horizontal": 82,
+            "product": "jas-5"
+          },
+          "type": "slide"
+        },
+        "slide_HCPHFe": {
+          "settings": {
+            "dot_position_vertical": 78,
+            "dot_position_horizontal": 57,
+            "product": "top-3"
+          },
+          "type": "slide"
+        }
+      },
+      "type": "shop-the-look"
+    },
+    "featured_products_MAtb9j": {
+      "settings": {
+        "spacing_bottom": "4",
+        "spacing_top": "4",
+        "color_scheme": "",
+        "section_width": "max-w-page",
+        "tab_button_style": "button button--filled",
+        "slideshow_autoplay_interval": 0,
+        "show_navigation_arrows": true,
+        "enable_slideshow_overflow": false,
+        "max_products": 8,
+        "button_style": "button--text",
+        "button_label": "View all",
+        "subheading": "",
+        "heading_size": "h3",
+        "heading": "SS25 Collection",
+        "layout": "layout-1"
+      },
+      "block_order": [
+        "collection_4y7kRU"
+      ],
+      "blocks": {
+        "collection_4y7kRU": {
+          "settings": {
+            "show_unavailable_products": true,
+            "collection_of_products": "",
+            "vendor": "",
+            "products": [
+              "jas-5",
+              "jas-2",
+              "jas-4",
+              "black-puffer-edge"
+            ],
+            "collection": "",
+            "title": ""
+          },
+          "type": "collection"
+        }
+      },
+      "type": "featured-products"
+    },
+    "full_width_banner_H7TeAA": {
+      "settings": {
+        "spacing_bottom": "2",
+        "spacing_top": "0",
+        "spacing_inner": "2",
+        "color_scheme_for_content": "scheme-6",
+        "color_scheme": "scheme-1",
+        "section_width": "max-w-full",
+        "aspect_ratio_mobile": "auto",
+        "show_controls_on_video_mobile": false,
+        "video_external_mobile": "",
+        "content_alignment_mobile": "center",
+        "content_position_mobile": "center",
+        "section_height_mobile": "half",
+        "aspect_ratio": "auto",
+        "show_controls_on_video": false,
+        "video_external": "",
+        "content_alignment": "center",
+        "content_position": "center",
+        "section_height": "full",
+        "media_position": "background"
+      },
+      "block_order": [
+        "subheading_cePnHk",
+        "heading_UH7aL7",
+        "buttons_P3LRar"
+      ],
+      "blocks": {
+        "buttons_P3LRar": {
+          "settings": {
+            "color_scheme_second_button": "scheme-7",
+            "button_style_2": "button--outlined",
+            "button_label_2": "Explore",
+            "color_scheme_first_button": "scheme-2",
+            "button_style_1": "button--filled",
+            "button_label_1": "Shop now",
+            "button_link_1_type": "button"
+          },
+          "type": "buttons"
+        },
+        "heading_UH7aL7": {
+          "settings": {
+            "heading_size": "h2",
+            "heading": "Transform your <em>look</em> this season"
+          },
+          "type": "heading"
+        },
+        "subheading_cePnHk": {
+          "settings": {
+            "link": "",
+            "subheading": "new collection"
+          },
+          "type": "subheading"
+        }
+      },
+      "type": "full-width-banner"
+    },
+    "seo_content_XJ6KGr": {
+      "settings": {
+        "spacing_bottom": "6",
+        "spacing_top": "4",
+        "spacing_inner": "2",
+        "color_scheme": "",
+        "section_width": "max-w-narrower",
+        "content_alignment": "center",
+        "text": "<p>Welcome to our latest lookbook, where fashion meets creativity. Dive into a world of style with our curated collection. Each piece is designed to inspire and elevate your wardrobe. Discover the perfect blend of classic and contemporary trends. Our collection offers something for every occasion. Enjoy exploring new styles and fresh ideas. Let your fashion journey begin here.</p>",
+        "heading_size": "h3",
+        "heading": "Explore the season",
+        "section_layout": "normal"
+      },
+      "type": "seo-content"
+    },
+    "featured_collections_BNkWXJ": {
+      "settings": {
+        "spacing_bottom": "0",
+        "spacing_top": "0",
+        "color_scheme_for_cards": "",
+        "color_scheme": "",
+        "section_width": "max-w-page",
+        "slideshow_border": "none",
+        "enable_slideshow_overflow": false,
+        "slideshow_alignment_center": false,
+        "show_carousel_arrows": false,
+        "slides_per_view_mobile": 1,
+        "slides_per_view": 3,
+        "collection_product_count": "show",
+        "card_title_style": "card-single-text",
+        "card_content_alignment": "start",
+        "image_aspect_ratio": "3 / 4",
+        "card_style": "normal",
+        "card_layout": "collection",
+        "button_style": "button--text",
+        "button_label": "Explore all",
+        "content_padding": "0",
+        "subheading": "",
+        "heading_size": "h3",
+        "heading": "",
+        "layout": "layout-1"
+      },
+      "block_order": [
+        "collection_slide_JN97x6",
+        "collection_slide_pMPqtF",
+        "collection_slide_YgTGjx"
+      ],
+      "blocks": {
+        "collection_slide_YgTGjx": {
+          "settings": {
+            "subheading": "",
+            "heading_size": "h4",
+            "heading": "",
+            "collection": ""
+          },
+          "type": "collection-slide"
+        },
+        "collection_slide_pMPqtF": {
+          "settings": {
+            "subheading": "",
+            "heading_size": "h4",
+            "heading": "",
+            "collection": ""
+          },
+          "type": "collection-slide"
+        },
+        "collection_slide_JN97x6": {
+          "settings": {
+            "subheading": "",
+            "heading_size": "h4",
+            "heading": "",
+            "collection": ""
+          },
+          "type": "collection-slide"
+        }
+      },
+      "type": "featured-collections"
+    },
+    "page_banner_jgHx3d": {
+      "settings": {
+        "spacing_bottom": "0",
+        "spacing_top": "2",
+        "color_scheme_for_media": "",
+        "color_scheme": "scheme-1",
+        "section_width": "max-w-narrow",
+        "show_controls_on_video_mobile": false,
+        "video_external_mobile": "",
+        "section_height_mobile": "50svh",
+        "show_controls_on_video": false,
+        "video_external": "",
+        "section_height": "33svh",
+        "enable_breadcrumbs": true,
+        "page_menu": "",
+        "media_position": "background",
+        "content_alignment": "center",
+        "content_position": "center",
+        "show_on_description": "desktop",
+        "show_default_description": true,
+        "text": "<p>Discover your perfect style with our latest collection, where elegance meets everyday comfort.</p>",
+        "heading_size": "h3",
+        "heading": "SS 2025 Lookbook"
+      },
+      "type": "page-banner"
+    },
+    "main": {
+      "settings": {
+        "spacing_bottom": "2",
+        "spacing_top": "2",
+        "color_scheme": "",
+        "section_width": "max-w-narrower",
+        "info_content": "",
+        "info_title": "",
+        "page_title_alignment": "text-center",
+        "show_page_title": true,
+        "breadcrumbs": true
+      },
+      "disabled": true,
+      "type": "main-page"
+    }
+  }
+}

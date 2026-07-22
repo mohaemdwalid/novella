@@ -1,0 +1,25 @@
+{% comment %}
+  Shared textarea renderer.
+{% endcomment %}
+
+{%- liquid
+  assign textarea_id = id | default: blank
+  assign textarea_label = label | default: blank
+  assign textarea_name = name | default: blank
+  assign textarea_placeholder = placeholder | default: blank
+  assign textarea_body = body | default: blank
+-%}
+
+<div class="field field--textarea">
+  {%- if textarea_label != blank and textarea_id != blank -%}
+    <label class="field__label" for="{{- textarea_id -}}">{{- textarea_label -}}</label>
+  {%- endif -%}
+
+  <textarea
+    rows="5"
+    class="field__input"
+    {% if textarea_id != blank %}id="{{- textarea_id -}}"{% endif %}
+    {% if textarea_name != blank %}name="{{- textarea_name -}}"{% endif %}
+    {% if textarea_placeholder != blank %}placeholder="{{- textarea_placeholder -}}"{% endif %}
+  >{{- textarea_body -}}</textarea>
+</div>

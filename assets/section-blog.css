@@ -1,0 +1,118 @@
+/* --- Base Styles --- */
+.blog {
+  background-color: rgb(var(--color-background));
+}
+
+.blog__head {
+  display: flex;
+  justify-content: center;
+  margin-block-end: calc(4rem - (var(--h3-multiplier) / 5.0));
+  mask-image: linear-gradient(to left, transparent 0%, black calc(var(--page-gutter) * 2));
+  overflow: auto hidden;
+}
+
+.blog__actions {
+  margin-block-start: 4rem;
+}
+
+/* --- Filters --- */
+.blog__filters {
+  max-width: 100%;
+}
+
+.blog__filters a,
+.blog__filters span {
+  display: block;
+  line-height: var(--line-height-static-sm);
+  width: max-content;
+}
+
+.blog__filters-items {
+  column-gap: var(--section-spacing-unit-size);
+  display: flex;
+}
+
+.blog__filters-item:not(.is-active) {
+  color: rgba(var(--color-foreground), 0.25);
+}
+
+.blog__filters-item:not(.is-active):hover {
+  color: rgba(var(--color-foreground), 0.5);
+}
+
+.blog__filters-item:first-child {
+  padding-inline-start: var(--page-gutter);
+}
+
+.blog__filters-item:last-child {
+  padding-inline-end: var(--page-gutter);
+}
+
+/* --- Article Grid & Cards --- */
+.blog__articles-grid {
+  display: grid;
+  gap: calc(var(--grid-spacing) * 3);
+  overflow-wrap: anywhere;
+}
+
+.blog__card-article .card-article__content {
+  padding-block-start: 2.4rem;
+}
+
+.blog__card-text {
+  margin-block-end: calc(0rem - var(--grid-spacing));
+}
+
+/* --- Media Queries --- */
+@media (hover: hover) {
+  .blog__filters a:hover {
+    background-color: rgb(var(--color-background));
+  }
+}
+
+/* @media screen and (max-width: 749px) {
+  .template--blog .section-full-width-banner {
+    aspect-ratio: 1 / 1;
+  }
+} */
+
+@media screen and (min-width: 575px) {
+  .blog__articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog__card-text {
+    margin-block-end: 0;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .blog__head {
+    margin-block-end: calc(6.4rem - (var(--h4-multiplier) / 5.0));
+  }
+
+  .blog__filters-items {
+    font-size: calc(var(--font-heading-scale) * var(--h4-multiplier));
+    padding-block: calc(var(--h4-multiplier) / 5.0);
+  }
+
+  .blog__articles-grid {
+    gap: var(--grid-spacing);
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .blog__articles-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .blog__filters-items {
+    margin: 0;
+    overflow: visible;
+  }
+
+  .blog__filters-item + .blog__filters-item {
+    margin-inline-start: 0;
+  }
+}

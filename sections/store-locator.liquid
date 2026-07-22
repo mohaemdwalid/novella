@@ -1,0 +1,686 @@
+{{ 'section-store-locator.css' | asset_url | stylesheet_tag }}
+
+{%- if section.blocks.size > 0 -%}
+  <script src="{{- 'store-locator-slider.js' | asset_url -}}" defer="defer"></script>
+{%- endif -%}
+
+{%- style -%}
+  #shopify-section-{{ section.id }} > div {
+    --section-card-height: {% if section.settings.cards_height_auto %}auto{% else %}{{ section.settings.cards_height | append: 'vh' }}{% endif %};
+    --section-gap-between-tiles: var(--grid-spacing);
+    padding-block-start: calc(var(--section-spacing-unit-size) * {{ section.settings.spacing_top }});
+    padding-block-end: calc(var(--section-spacing-unit-size) * {{ section.settings.spacing_bottom }});
+  }
+  @media screen and (max-width: 749px) {
+    #shopify-section-{{ section.id }} > div {
+      --section-card-height: {{ section.settings.cards_height_mobile | append: 'vh' }};
+    }
+  }
+{%- endstyle -%}
+
+{%- unless section.settings.show_pin -%}
+  {%- style -%}
+    .store-locator__map--custom-marker--label {
+      display: none;
+    }
+  {%- endstyle -%}
+{%- endunless -%}
+{%- if section.blocks.size == 3 and section.settings.layout != 'map' -%}
+  {%- style -%}
+  @media screen and (min-width: 750px) {
+    .store-locator store-locator-slider:not(.store-locator__map-cards) {
+      grid-column: span 3 / span 3;
+    }
+  }
+  {%- endstyle -%}
+{%- endif -%}
+{%- assign blocks_size = section.blocks.size | append: '' -%}
+{%- assign icon_arrow = 'theme-chevron' -%}
+{%- capture see_more_card -%}
+  {%- assign search = section.settings.see_more_search | default: false -%}
+  <div class="store-locator-card  store-locator-card__see-more{% if search %} store-locator-card__search{% endif %}{% if section.settings.layout == 'map' %} swiper-slide{% endif %}">
+    <div class="store-locator-card__content color-{{ section.settings.see_more_color_scheme }} gradient">
+      {%- if section.settings.see_more_card_title -%}
+        <h3 class="store-locator-card__title">
+          {{- section.settings.see_more_card_title -}}
+        </h3>
+      {%- endif -%}
+      {%- if search and section.settings.layout == 'map' -%}
+        <div class="store-locator__search-controls">
+          {%- capture attr -%}autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false"{%- endcapture -%}
+          {%- assign search_label = 'sections.store_locator.search' | t -%}
+          {%- assign search_placeholder = 'sections.store_locator.search_placeholder' | t -%}
+
+          {%- render 'text-input',
+            id: 'search-store-locator',
+            label: search_label,
+            type: 'search',
+            name: 'search',
+            placeholder: search_placeholder,
+            hide_label: true,
+            class: 'store-locator__search',
+            attr: attr
+          -%}
+
+          <button id="store-locator__clear-search" style="display: none;">{{ 'sections.store_locator.clear' | t }}</button>
+          <div id="store-locator__search-results" class="store-locator__search-dropdown" style="display: none;"></div>
+        </div>
+      {%- else -%}
+        {%- if section.settings.see_more_button_label and section.settings.see_more_button_link -%}
+          <a href="{{- section.settings.see_more_button_link -}}" class="button {{ section.settings.see_more_button_style -}}">
+            {{- section.settings.see_more_button_label -}}
+          </a>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+  </div>
+{%- endcapture -%}
+<div class="color-{{ section.settings.color_scheme }} gradient js-animation-fade-in">
+  <div class="store-locator" data-show-pin="{{ section.settings.show_pin }}">
+    <div class="container {{ section.settings.section_width -}}">
+      {% comment %} HEADER {% endcomment %}
+      <div class="store-locator__header">
+        {%- if section.settings.heading != blank -%}
+          <div class="store-locator-page__title">
+            <h2 class="section__heading {{ section.settings.heading_size }}">{{- section.settings.heading -}}</h2>
+          </div>
+        {%- endif -%}
+        {%- if section.settings.layout == 'image' -%}
+          <div class="swiper-buttons store-locator__swiper-buttons small-hide card-slider__buttons no-js-hidden">
+            <button class="swiper-button swiper-button--prev-{{ section.id }}" aria-label="{{- 'theme.actions.previous' | t -}}">
+              {%- render 'icon', icon_name: icon_arrow -%}
+            </button>
+            <button class="swiper-button swiper-button--next-{{ section.id }}" aria-label="{{- 'theme.actions.next' | t -}}">
+              {%- render 'icon', icon_name: icon_arrow -%}
+            </button>
+          </div>
+        {%- endif -%}
+      </div>
+      {% comment %} GRID - MAIN {% endcomment %}
+      <div class="grid{% if section.settings.image_grid_columns == blocks_size and section.settings.layout == 'image' %} grid-cols-{{- section.settings.image_grid_columns -}}{% endif %}">
+        {%- if section.blocks.size > 0 -%}
+          {%- if section.settings.layout == 'image' -%}
+            {% comment %} IMAGE LAYOUT {% endcomment %}
+            {%- if section.blocks.size == 1 and section.blocks[0].type == 'pin' and section.settings.see_more_card_title == blank -%}
+
+              {%- assign block = section.blocks[0] -%}
+              {%- render 'store-locator-pin', block: block -%}
+              {% style %}
+                .store-locator-card--layout-1 .store-locator-card__content,
+                .store-locator-card--layout-2 .store-locator-card__content {
+                  border-top: 1px solid rgba(var(--color-foreground), 0.2);
+                  --content-card-padding: var(--spacing-8);
+                }
+                .store-locator-card--layout-1 .store-locator-card__content {
+                  border-left: none;
+                }
+                .store-locator-card--layout-1 .store-locator-card__image {
+                  border-bottom: 1px solid rgba(var(--color-foreground), 0.2);
+                  border-right: none;
+                }
+                .store-locator-card__content .store-locator-card__content--city {
+                  padding-block-end: var(--spacing-5);
+                }
+                .store-locator-card__actions {
+                  padding-block-start: var(--spacing-5);
+                }
+              {% endstyle %}
+            {%- elsif section.blocks.size > 1 or section.blocks.size == 1 and section.settings.see_more_card_title != blank-%}
+
+              {%- assign image_grid_columns = section.settings.image_grid_columns | plus: 0 -%}
+              {%- if section.blocks.size > image_grid_columns or section.blocks.size <= image_grid_columns and section.blocks.size > 1 -%}
+
+                {%- liquid
+                  assign swiper_space_between = settings.spacing_desktop | times: 10 | round
+                  if section.settings.image_grid_columns == 'auto'
+                    assign slides_per_view = 2
+                    if section.blocks.size > 2
+                      assign slides_per_view = 3
+                    endif
+                  else
+                    assign slides_per_view = section.settings.image_grid_columns
+                  endif
+
+                  assign has_image = false
+                  for block in section.blocks
+                    if block.settings.store_image != blank
+                      assign has_image = true
+                      break
+                    endif
+                  endfor
+                -%}
+                {% style %}
+                  .store-locator-card.store-locator-card__see-more {
+                    padding-inline-end: {{ swiper_space_between }}px;
+                  }
+                {% endstyle %}
+                <store-locator-slider
+                  class="swiper {% unless has_image and section.settings.card_layout != 'layout-1' %} no-image{% endunless %}"
+                  data-space-between="{{- swiper_space_between -}}"
+                  data-slides-per-view="{{- slides_per_view -}}"
+                  data-section-id="{{- section.id -}}"
+                >
+                  <div class="swiper-wrapper">
+                    {%- for block in section.blocks -%}
+                      <div class="swiper-slide">
+                        {%- render 'store-locator-pin', block: block, card_layout: 'image-overlay' -%}
+                      </div>
+                    {%- endfor -%}
+                    {%- if section.settings.see_more_card_title != blank -%}
+                      <div class="swiper-slide">
+                        {{ see_more_card }}
+                      </div>
+                    {%- endif -%}
+                  </div>
+                </store-locator-slider>
+
+              {%- else -%}
+
+                {%- for block in section.blocks -%}
+                  <div class="small-hide">
+                    {%- render 'store-locator-pin', block: block, card_layout: 'image-overlay' -%}
+                  </div>
+                {%- endfor -%}
+                {%- if section.settings.see_more_card_title != blank -%}
+                  <div class="small-hide">
+                    {{ see_more_card }}
+                  </div>
+                {%- endif -%}
+
+                <store-locator-slider
+                  class="swiper small-up-hide"
+                  data-space-between="{{- swiper_space_between -}}"
+                  data-slides-per-view="{{- slides_per_view -}}"
+                >
+                  <div class="swiper-wrapper">
+                    {%- for block in section.blocks -%}
+                      <div class="swiper-slide">
+                        {%- if block.type == 'pin' -%}
+                          {%- render 'store-locator-pin', block: block, card_layout: 'image-overlay' -%}
+                        {%- endif -%}
+                      </div>
+                    {%- endfor -%}
+                    {%- if section.settings.see_more_card_title != blank -%}
+                      <div class="swiper-slide">
+                        <div class="store-locator-card store-locator-card__see-more">
+                          <div class="store-locator-card__content store-locator-card__content--see-more color-{{ section.settings.see_more_color_scheme }} gradient">
+                            {%- if section.settings.see_more_card_title -%}
+                              <h3 class="store-locator-card__title">
+                                {{- section.settings.see_more_card_title -}}
+                              </h3>
+                            {%- endif -%}
+                            {%- if section.settings.see_more_button_label and section.settings.see_more_button_link -%}
+                              <a href="{{- section.settings.see_more_button_link -}}" class="button {{ section.settings.see_more_button_style -}}">
+                                {{- section.settings.see_more_button_label -}}
+                              </a>
+                            {%- endif -%}
+                          </div>
+                        </div>
+                      </div>
+                    {%- endif -%}
+                  </div>
+                </store-locator-slider>
+              {%- endif -%}
+
+            {%- endif -%}
+          {%- elsif section.settings.layout == 'map' -%}
+            {% comment %} MAP LAYOUT {% endcomment %}
+            <div class="store-locator__map-layout {% if section.settings.see_more_search == true %}store-locator__map-layout--with-search{% endif %}">
+              <div class="store-locator__map-container">
+                <div
+                  id="google_map"
+                  class="store-locator-google-map"
+                  data-map-zoom-level="{{ section.settings.zoom_level }}"
+                ></div>
+              </div>
+
+              <store-locator-slider class="store-locator__map-cards{% unless section.settings.see_more_card_title != blank %} store-locator__map-cards--no-see-more{% endunless %}{% if section.blocks.size > 1 %} swiper{% endif %}">
+                {%- assign marker_index = 0 -%}
+                <div class="swiper-wrapper">
+                  {%- for block in section.blocks -%}
+                    {%- render 'store-locator-pin', block: block, hide_images: true, marker_index: marker_index, hide_pins: true -%}
+                    {%- unless section.settings.see_more_card_title != blank -%}
+                      {%- assign marker_index = marker_index | plus: 1 -%}
+                    {%- endunless -%}
+                  {%- endfor -%}
+                  {%- if section.settings.see_more_card_title != blank -%}
+                      {{ see_more_card }}
+                  {%- endif -%}
+                </div><!-- /.swiper-wrapper -->
+              </store-locator-slider>
+            </div>
+
+            <script src="{{ 'store-locator-maps.js' | asset_url }}" defer="defer"></script>
+            <script>
+              (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+              ({key: "{{ section.settings.api_key | default: '' }}", v: "weekly"});
+            </script>
+            {%- if section.settings.see_more_search == true -%}
+              <script src="{{ 'store-locator-filter.js' | asset_url }}" defer="defer"></script>
+            {%- endif -%}
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.store-locator.name",
+  "tag": "section",
+  "limit": 1,
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "t:sections.global.element.heading.label",
+      "default": "Our <em>flagship stores</em>"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "t:sections.global.element.heading_size.label",
+      "options": [
+        {
+          "value": "h6",
+          "label": "XS"
+        },
+        {
+          "value": "h5",
+          "label": "S"
+        },
+        {
+          "value": "h4",
+          "label": "M"
+        },
+        {
+          "value": "h3",
+          "label": "L"
+        },
+        {
+          "value": "h2",
+          "label": "XL"
+        }
+      ],
+      "default": "h3"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "t:sections.store-locator.settings.map_layout.label",
+      "options": [
+        {
+          "value": "image",
+          "label": "t:sections.store-locator.settings.map_layout.options.layout_image.label"
+        },
+        {
+          "value": "map",
+          "label": "t:sections.store-locator.settings.map_layout.options.layout_map.label"
+        }
+      ],
+      "default": "image"
+    },
+    {
+      "type": "select",
+      "id": "image_grid_columns",
+      "label": "Image layout columns",
+      "info": "This options is for desktop only.",
+      "options": [
+        {
+          "value": "auto",
+          "label": "Auto"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "range",
+      "id": "cards_height",
+      "label": "t:sections.store-locator.settings.section_height.label",
+      "min": 60,
+      "max": 80,
+      "step": 2,
+      "unit": "vh",
+      "default": 70
+    },
+    {
+      "type": "checkbox",
+      "id": "cards_height_auto",
+      "label": "t:sections.store-locator.settings.cards_height_auto.label",
+      "info": "t:sections.store-locator.settings.cards_height_auto.info",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "cards_height_mobile",
+      "label": "t:sections.store-locator.settings.section_height_mobile.label",
+      "min": 60,
+      "max": 80,
+      "step": 2,
+      "unit": "vh",
+      "default": 60
+    },
+    {
+      "type": "header",
+      "content": "Map settings"
+    },
+    {
+      "type": "textarea",
+      "id": "api_key",
+      "label": "t:sections.store-locator.settings.api_key.label",
+      "info": "t:sections.store-locator.settings.api_key.info"
+    },
+    {
+      "type": "range",
+      "id": "zoom_level",
+      "min": 0,
+      "max": 21,
+      "step": 1,
+      "label": "t:sections.map.settings.zoom_level.label",
+      "default": 4
+    },
+    {
+      "type": "checkbox",
+      "id": "show_pin",
+      "label": "t:sections.store-locator.settings.show_pin.label",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "t:sections.store-locator.settings.card_settings_header.content",
+      "info": "t:sections.store-locator.settings.card_settings_header.info"
+    },
+    {
+      "type": "select",
+      "id": "card_layout",
+      "label": "t:sections.store-locator.settings.card_layout.label",
+      "options": [
+        {
+          "value": "layout-1",
+          "label": "t:sections.store-locator.settings.card_layout.options.layout_1"
+        },
+        {
+          "value": "layout-2",
+          "label": "t:sections.store-locator.settings.card_layout.options.layout_2"
+        }
+      ],
+      "default": "layout-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.store-locator.settings.see_more.label"
+    },
+    {
+      "type": "richtext",
+      "id": "see_more_card_title",
+      "label": "Title",
+      "default": "<h3>Discover our <em>other stores</em></h3>"
+    },
+    {
+      "type": "select",
+      "id": "see_more_button_style",
+      "label": "t:sections.global.element.button.style.label",
+      "options": [
+        {
+          "value": "button--filled",
+          "label": "t:sections.global.element.button.style.options.filled.label"
+        },
+        {
+          "value": "button--outlined",
+          "label": "t:sections.global.element.button.style.options.outlined.label"
+        },
+        {
+          "value": "default",
+          "label": "t:sections.global.element.button.style.options.default.label"
+        }
+      ],
+      "default": "button--outlined"
+    },
+    {
+      "type": "text",
+      "id": "see_more_button_label",
+      "label": "Button label",
+      "default": "See all stores"
+    },
+    {
+      "type": "url",
+      "id": "see_more_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "checkbox",
+      "id": "see_more_search",
+      "label": "Display searchbox on maps layout",
+      "default": false
+    },
+    {
+      "type": "color_scheme",
+      "id": "see_more_color_scheme",
+      "label": "t:sections.global.color_scheme.label",
+      "default": "scheme-2"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.global.header.settings.content",
+      "info": "t:sections.global.header.settings.info"
+    },
+    {
+      "type": "select",
+      "id": "section_width",
+      "options": [
+        {
+          "value": "max-w-page",
+          "label": "t:sections.global.settings.section_width.options__1.label"
+        },
+        {
+          "value": "max-w-fluid",
+          "label": "t:sections.global.settings.section_width.options__2.label"
+        },
+        {
+          "value": "max-w-full",
+          "label": "t:sections.global.settings.section_width.options__3.label"
+        }
+      ],
+      "default": "max-w-page",
+      "label": "t:sections.global.settings.section_width.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "default": "scheme-1",
+      "label": "t:sections.global.color_scheme.label"
+    },
+    {
+      "type": "select",
+      "id": "spacing_top",
+      "label": "t:sections.global.settings.spacing.settings.spacing_top.label",
+      "options": [
+        {
+          "value": "0",
+          "label": "No"
+        },
+        {
+          "value": "1",
+          "label": "S"
+        },
+        {
+          "value": "2",
+          "label": "M"
+        },
+        {
+          "value": "4",
+          "label": "L"
+        },
+        {
+          "value": "6",
+          "label": "XL"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "select",
+      "id": "spacing_bottom",
+      "label": "t:sections.global.settings.spacing.settings.spacing_bottom.label",
+      "options": [
+        {
+          "value": "0",
+          "label": "No"
+        },
+        {
+          "value": "1",
+          "label": "S"
+        },
+        {
+          "value": "2",
+          "label": "M"
+        },
+        {
+          "value": "4",
+          "label": "L"
+        },
+        {
+          "value": "6",
+          "label": "XL"
+        }
+      ],
+      "default": "2"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "pin",
+      "name": "t:sections.store-locator.blocks.pin.name",
+      "settings": [
+        {
+          "type": "header",
+          "content": "t:sections.global.header.store_info.content"
+        },
+        {
+          "type": "text",
+          "id": "pin_title",
+          "label": "t:sections.store-locator.blocks.pin.settings.pin_title.label"
+        },
+        {
+          "type": "text",
+          "id": "store_country",
+          "label": "t:sections.store-locator.blocks.pin.settings.store_country.label"
+        },
+        {
+          "type": "text",
+          "id": "store_city",
+          "label": "t:sections.store-locator.blocks.pin.settings.store_city.label"
+        },
+        {
+          "type": "textarea",
+          "id": "store_address",
+          "label": "t:sections.store-locator.blocks.pin.settings.store_address.label"
+        },
+        {
+          "type": "text",
+          "id": "store_mail_address",
+          "label": "t:sections.store-locator.blocks.pin.settings.store_mail_address.label"
+        },
+        {
+          "type": "richtext",
+          "id": "store_opening_hours",
+          "label": "t:sections.store-locator.blocks.pin.settings.store_opening_hours.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "store_image",
+          "label": "t:sections.store-locator.blocks.pin.settings.store_image.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.global.header.store_location.content"
+        },
+        {
+          "type": "text",
+          "id": "store_latitude",
+          "label": "t:sections.store-locator.blocks.pin.settings.store_latitude.label",
+          "info": "t:sections.store-locator.blocks.pin.settings.store_latitude.info"
+        },
+        {
+          "type": "text",
+          "id": "store_longitude",
+          "label": "t:sections.store-locator.blocks.pin.settings.store_longitude.label",
+          "info": "t:sections.store-locator.blocks.pin.settings.store_longitude.info"
+        },
+        {
+          "type": "textarea",
+          "id": "coordinate_title",
+          "label": "t:sections.store-locator.blocks.pin.settings.coordinate_title.label",
+          "info": "t:sections.store-locator.blocks.pin.settings.coordinate_title.info"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.global.header.actions.content"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "t:sections.global.element.button.style.label",
+          "options": [
+            {
+              "value": "button--filled",
+              "label": "t:sections.global.element.button.style.options.filled.label"
+            },
+            {
+              "value": "button--outlined",
+              "label": "t:sections.global.element.button.style.options.outlined.label"
+            },
+            {
+              "value": "default",
+              "label": "t:sections.global.element.button.style.options.default.label"
+            }
+          ],
+          "default": "button--outlined"
+        },
+        {
+          "type": "text",
+          "id": "store_tel_button",
+          "label": "t:sections.store-locator.blocks.pin.settings.store_tel_button.label",
+          "default": "t:sections.store-locator.blocks.pin.settings.store_tel_button.default"
+        },
+        {
+          "type": "text",
+          "id": "store_tel",
+          "label": "t:sections.store-locator.blocks.pin.settings.store_tel.label"
+        },
+        {
+          "type": "text",
+          "id": "store_pin",
+          "label": "t:sections.store-locator.blocks.pin.settings.store_pin.label"
+        },
+        {
+          "type": "url",
+          "id": "store_pin_link",
+          "label": "t:sections.store-locator.blocks.pin.settings.store_pin_link.label",
+          "info": "t:sections.store-locator.blocks.pin.settings.store_pin_link.info"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.global.header.settings.content",
+          "info": "t:sections.global.header.settings.info"
+        },
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "default": "scheme-1",
+          "label": "t:sections.global.color_scheme.label"
+        }
+      ]
+    }
+  ]}
+{% endschema %}
+

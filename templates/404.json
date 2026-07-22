@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "settings": {
+        "section_width": "max-w-narrower",
+        "color_scheme": "scheme-1",
+        "spacing_top": "4",
+        "spacing_bottom": "4",
+        "heading": "<em>Oops!</em>",
+        "text": "<p>We couldn't find what you're looking for. Return to the Novella homepage below.</p>",
+        "button_label": "Return to Novella",
+        "button_link": "/",
+        "button_style": "button--outlined"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

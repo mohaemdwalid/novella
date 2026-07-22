@@ -1,0 +1,39 @@
+{% comment %}
+  Renders a go back button for product page
+  Accepts:
+  - fallback?: {string} - Fallback URL if coming from an external source
+  - style?: {String}
+  - label?: {String}
+  Usage:
+  {%- render 'product-goback', fallback: product_collection.url -%}
+{% endcomment %}
+<product-goback class="button button--uppercase product-button__goback--{{ style | default: 'filled' }} show-on--{{ show_on }}">
+  {%- render 'icon', icon_name: 'theme-chevron', class: 'icon icon--rotate-180' -%}
+  <span {%- if style == 'text' %} class="button button--text"{% endif %}>
+    {% if label != blank %}
+      {{ label  }}
+    {% else %}
+      {{ 'product.go_back' | t }}
+    {% endif %}
+  </span>
+</product-goback>
+
+<script>
+  if (!customElements.get("product-goback")) {
+    customElements.define("product-goback", class extends HTMLElement {
+      connectedCallback() {
+        this.handleClick = () => {
+          if (!document.referrer) {
+            window.location.href = "{{ fallback | default: collections.all.url }}";
+          } else {
+            window.history.back();
+          }
+        };
+        this.addEventListener("click", this.handleClick);
+      }
+      disconnectedCallback() {
+        this.removeEventListener("click", this.handleClick);
+      }
+    });
+  }
+</script>

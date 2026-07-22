@@ -1,0 +1,1986 @@
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  config/settings_data.json                                                   │
+│                                                                              │
+│                                                                              │
+│  [warning]: DeprecatedFontsOnSettingsData                                    │
+│  The font "harmonia_sans_n4" is deprecated                                   │
+│                                                                              │
+│  7  "type_body_font": "harmonia_sans_n4",                                    │
+│                                                                              │
+│                                                                              │
+│  [warning]: DeprecatedFontsOnSettingsData                                    │
+│  The font "harmonia_sans_n4" is deprecated                                   │
+│                                                                              │
+│  12  "type_button_font": "harmonia_sans_n4",                                 │
+│                                                                              │
+│                                                                              │
+│  [warning]: DeprecatedFontsOnSettingsData                                    │
+│  The font "harmonia_sans_n4" is deprecated                                   │
+│                                                                              │
+│  291  "type_body_font": "harmonia_sans_n4",                                  │
+│                                                                              │
+│                                                                              │
+│  [warning]: DeprecatedFontsOnSettingsData                                    │
+│  The font "harmonia_sans_n4" is deprecated                                   │
+│                                                                              │
+│  296  "type_button_font": "harmonia_sans_n4",                                │
+│                                                                              │
+│                                                                              │
+│  [warning]: DeprecatedFontsOnSettingsData                                    │
+│  The font "harmonia_sans_n4" is deprecated                                   │
+│                                                                              │
+│  573  "type_body_font": "harmonia_sans_n4",                                  │
+│                                                                              │
+│                                                                              │
+│  [warning]: DeprecatedFontsOnSettingsData                                    │
+│  The font "harmonia_sans_n4" is deprecated                                   │
+│                                                                              │
+│  578  "type_button_font": "harmonia_sans_n4",                                │
+│                                                                              │
+│                                                                              │
+│  [warning]: DeprecatedFontsOnSettingsData                                    │
+│  The font "harmonia_sans_n4" is deprecated                                   │
+│                                                                              │
+│  855  "type_body_font": "harmonia_sans_n4",                                  │
+│                                                                              │
+│                                                                              │
+│  [warning]: DeprecatedFontsOnSettingsData                                    │
+│  The font "harmonia_sans_n4" is deprecated                                   │
+│                                                                              │
+│  860  "type_button_font": "harmonia_sans_n4",                                │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  locales/de.json                                                             │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note' is missing                               │
+│                                                                              │
+│  283    "product": {                                                         │
+│  284      "label": "Produkt",                                                │
+│  285      "description": "Beschreibung",                                     │
+│  286      "vendor": "Anbieter",                                              │
+│  287      "sku": "SKU",                                                      │
+│  288      "choose_options": "Optionen wählen",                               │
+│  289      "select_size": "Größe auswählen",                                  │
+│  290      "view_product": "Produkt anzeigen",                                │
+│  291      "go_to_title": "Gehe zu {{title}}",                                │
+│  292      "go_back": "Zurück",                                               │
+│  293      "unavailable": "Nicht verfügbar",                                  │
+│  294      "sold_out": "Ausverkauft",                                         │
+│  295      "on_sale": "Im Angebot",                                           │
+│  296      "taxes_included": "Steuern inbegriffen.",                          │
+│  297      "duties_included": "Zölle inbegriffen.",                           │
+│  298      "duties_and_taxes_included": "Zölle und Steuern inbegriffen.",     │
+│  299      "price_regular": "Regulärer Preis",                                │
+│  300      "price_sale": "Verkaufspreis",                                     │
+│  301      "price_unit": "Stückpreis",                                        │
+│  302      "unit_price_separator": "pro",                                     │
+│  303      "price_min": "Mindestpreis",                                       │
+│  304      "price_max": "Höchstpreis",                                        │
+│  305      "price_from": "Ab",                                                │
+│  306      "subscription": "Abonnement",                                      │
+│  307      "view_subscription_policy": "Abonnementrichtlinie anzeigen",       │
+│  308      "from_price_per_html": "ab {{price}}/jeweils",                     │
+│  309      "inventory_in_stock": "Auf Lager",                                 │
+│  310      "inventory_in_stock_show_count": "{{quantity}} auf Lager",         │
+│  311      "inventory_low_stock": "Nur noch wenige übrig. Bald bestellen.",   │
+│  312      "inventory_low_stock_show_count": "Nur noch {{quantity}} auf       │
+│  Lager. Bald bestellen.",                                                    │
+│  313      "inventory_out_of_stock": "Nicht auf Lager",                       │
+│  314      "inventory_out_of_stock_continue_selling": "Auf Lager",            │
+│  315      "pickup_available": "Abholung verfügbar",                          │
+│  316      "pickup_availability": "Abholung verfügbar",                       │
+│  317      "pickup_available_at_html": "Abholung verfügbar bei <span          │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  318      "pickup_unavailable": "Abholung nicht verfügbar",                  │
+│  319      "pickup_unavailable_at_html": "Abholung derzeit nicht verfügbar    │
+│  bei <span class=\"color-foreground\">{{location_name}}</span>",             │
+│  320      "pickup_refresh_availability": "Verfügbarkeit aktualisieren",      │
+│  321      "pickup_view_store_info": "Geschäftsinformationen anzeigen",       │
+│  322      "pickup_check_other_stores": "Verfügbarkeit in anderen Geschäften  │
+│   prüfen",                                                                   │
+│  323      "selling_plan_one_time_purchase": "Einmalkauf",                    │
+│  324      "selling_plan_purchase_options": "Kaufoptionen",                   │
+│  325      "size_guide": "Größentabelle",                                     │
+│  326      "quantity": "Menge",                                               │
+│  327      "quantity_decrease_for_product": "Menge für {{product}}            │
+│  verringern",                                                                │
+│  328      "quantity_increase_for_product": "Menge für {{product}} erhöhen",  │
+│  329      "shipping_policy_html": "<a href=\"{{link}}\">Versand</a> wird an  │
+│   der Kasse berechnet.",                                                     │
+│  330      "media_gallery": "Mediengalerie",                                  │
+│  331      "media_open_with_index": "Medien {{index}} im Modal öffnen",       │
+│  332      "media_xr_button": "In Ihrem Raum anzeigen",                       │
+│  333      "media_xr_button_label": "In Ihrem Raum anzeigen, lädt Artikel im  │
+│   Augmented Reality-Fenster",                                                │
+│  334      "quick_cart_empty": "Der Schnellwarenkorb ist derzeit leer",       │
+│  335      "quick_cart_empty_content": "Es wurde noch kein Produkt            │
+│  ausgewählt.",                                                               │
+│  336      "as_seen_on": "Wie gesehen bei",                                   │
+│  337      "as_seen_on_info": "{{brand}} verwendet ",                         │
+│  338      "optional": "Optional",                                            │
+│  339      "variant_sold_out_or_unavailable": "Variante ausverkauft oder      │
+│  nicht verfügbar",                                                           │
+│  340      "value_unavailable": "{{ option_value }} - Nicht verfügbar",       │
+│  341      "quantity_in_cart_html": "<span                                    │
+│  class=\"quantity-cart\">{{quantity}}</span> im Warenkorb",                  │
+│  342      "quantity_multiplies_of": "Vielfache von {{quantity}}",            │
+│  343      "quantity_minimum_of": "Mindestmenge von {{quantity}}",            │
+│  344      "quantity_maximum_of": "Höchstmenge von {{quantity}}",             │
+│  345      "selling_plan_subscription_type": "Abonnementtyp",                 │
+│  346      "discount_badge": "{{percentage}} % Rabatt",                       │
+│  347      "discount_badge_html": "<span                                      │
+│  class=\"percentage\">{{percentage}}</span>% Rabatt",                        │
+│  348      "variant_info": "Verfügbar in ",                                   │
+│  349      "variant_info_one_option": "Verfügbar in {{ option_count_and_name  │
+│   }}",                                                                       │
+│  350      "variant_info_multiple_options": "Verfügbar in {{                  │
+│  options_count_and_name }} und {{ option_last_count_and_name }}",            │
+│  351      "preorder": "Jetzt vorbestellen",                                  │
+│  352      "preorder_badge": "Vorbestellung",                                 │
+│  353      "preorder_info": "Dieses Produkt ist derzeit als Vorbestellung     │
+│  verfügbar.",                                                                │
+│  354      "preorder_notice": "Dieses Produkt wird am {{date}} versendet.",   │
+│  355      "preorder_warning_html": "* Durch Klicken auf 'Vorbestellen'       │
+│  <strong>erkenne ich an, dass ich einen vorbestellten Artikel kaufe, keinen  │
+│   vorrätigen Artikel</strong> und stimme den Allgemeinen                     │
+│  Geschäftsbedingungen des Vorbestellprozesses zu.",                          │
+│  356      "badges": {                                                        │
+│  357        "new": "Neu",                                                    │
+│  358        "best_seller": "Bestseller",                                     │
+│  359        "featured": "Empfohlen",                                         │
+│  360        "on_sale": "Im Angebot",                                         │
+│  361        "coming_soon": "Bald verfügbar",                                 │
+│  362        "pre_order": "Vorbestellung",                                    │
+│  363        "sold_out": "Ausverkauft"                                        │
+│  364      }                                                                  │
+│  365    },                                                                   │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note_placeholder' is missing                   │
+│                                                                              │
+│  283    "product": {                                                         │
+│  284      "label": "Produkt",                                                │
+│  285      "description": "Beschreibung",                                     │
+│  286      "vendor": "Anbieter",                                              │
+│  287      "sku": "SKU",                                                      │
+│  288      "choose_options": "Optionen wählen",                               │
+│  289      "select_size": "Größe auswählen",                                  │
+│  290      "view_product": "Produkt anzeigen",                                │
+│  291      "go_to_title": "Gehe zu {{title}}",                                │
+│  292      "go_back": "Zurück",                                               │
+│  293      "unavailable": "Nicht verfügbar",                                  │
+│  294      "sold_out": "Ausverkauft",                                         │
+│  295      "on_sale": "Im Angebot",                                           │
+│  296      "taxes_included": "Steuern inbegriffen.",                          │
+│  297      "duties_included": "Zölle inbegriffen.",                           │
+│  298      "duties_and_taxes_included": "Zölle und Steuern inbegriffen.",     │
+│  299      "price_regular": "Regulärer Preis",                                │
+│  300      "price_sale": "Verkaufspreis",                                     │
+│  301      "price_unit": "Stückpreis",                                        │
+│  302      "unit_price_separator": "pro",                                     │
+│  303      "price_min": "Mindestpreis",                                       │
+│  304      "price_max": "Höchstpreis",                                        │
+│  305      "price_from": "Ab",                                                │
+│  306      "subscription": "Abonnement",                                      │
+│  307      "view_subscription_policy": "Abonnementrichtlinie anzeigen",       │
+│  308      "from_price_per_html": "ab {{price}}/jeweils",                     │
+│  309      "inventory_in_stock": "Auf Lager",                                 │
+│  310      "inventory_in_stock_show_count": "{{quantity}} auf Lager",         │
+│  311      "inventory_low_stock": "Nur noch wenige übrig. Bald bestellen.",   │
+│  312      "inventory_low_stock_show_count": "Nur noch {{quantity}} auf       │
+│  Lager. Bald bestellen.",                                                    │
+│  313      "inventory_out_of_stock": "Nicht auf Lager",                       │
+│  314      "inventory_out_of_stock_continue_selling": "Auf Lager",            │
+│  315      "pickup_available": "Abholung verfügbar",                          │
+│  316      "pickup_availability": "Abholung verfügbar",                       │
+│  317      "pickup_available_at_html": "Abholung verfügbar bei <span          │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  318      "pickup_unavailable": "Abholung nicht verfügbar",                  │
+│  319      "pickup_unavailable_at_html": "Abholung derzeit nicht verfügbar    │
+│  bei <span class=\"color-foreground\">{{location_name}}</span>",             │
+│  320      "pickup_refresh_availability": "Verfügbarkeit aktualisieren",      │
+│  321      "pickup_view_store_info": "Geschäftsinformationen anzeigen",       │
+│  322      "pickup_check_other_stores": "Verfügbarkeit in anderen Geschäften  │
+│   prüfen",                                                                   │
+│  323      "selling_plan_one_time_purchase": "Einmalkauf",                    │
+│  324      "selling_plan_purchase_options": "Kaufoptionen",                   │
+│  325      "size_guide": "Größentabelle",                                     │
+│  326      "quantity": "Menge",                                               │
+│  327      "quantity_decrease_for_product": "Menge für {{product}}            │
+│  verringern",                                                                │
+│  328      "quantity_increase_for_product": "Menge für {{product}} erhöhen",  │
+│  329      "shipping_policy_html": "<a href=\"{{link}}\">Versand</a> wird an  │
+│   der Kasse berechnet.",                                                     │
+│  330      "media_gallery": "Mediengalerie",                                  │
+│  331      "media_open_with_index": "Medien {{index}} im Modal öffnen",       │
+│  332      "media_xr_button": "In Ihrem Raum anzeigen",                       │
+│  333      "media_xr_button_label": "In Ihrem Raum anzeigen, lädt Artikel im  │
+│   Augmented Reality-Fenster",                                                │
+│  334      "quick_cart_empty": "Der Schnellwarenkorb ist derzeit leer",       │
+│  335      "quick_cart_empty_content": "Es wurde noch kein Produkt            │
+│  ausgewählt.",                                                               │
+│  336      "as_seen_on": "Wie gesehen bei",                                   │
+│  337      "as_seen_on_info": "{{brand}} verwendet ",                         │
+│  338      "optional": "Optional",                                            │
+│  339      "variant_sold_out_or_unavailable": "Variante ausverkauft oder      │
+│  nicht verfügbar",                                                           │
+│  340      "value_unavailable": "{{ option_value }} - Nicht verfügbar",       │
+│  341      "quantity_in_cart_html": "<span                                    │
+│  class=\"quantity-cart\">{{quantity}}</span> im Warenkorb",                  │
+│  342      "quantity_multiplies_of": "Vielfache von {{quantity}}",            │
+│  343      "quantity_minimum_of": "Mindestmenge von {{quantity}}",            │
+│  344      "quantity_maximum_of": "Höchstmenge von {{quantity}}",             │
+│  345      "selling_plan_subscription_type": "Abonnementtyp",                 │
+│  346      "discount_badge": "{{percentage}} % Rabatt",                       │
+│  347      "discount_badge_html": "<span                                      │
+│  class=\"percentage\">{{percentage}}</span>% Rabatt",                        │
+│  348      "variant_info": "Verfügbar in ",                                   │
+│  349      "variant_info_one_option": "Verfügbar in {{ option_count_and_name  │
+│   }}",                                                                       │
+│  350      "variant_info_multiple_options": "Verfügbar in {{                  │
+│  options_count_and_name }} und {{ option_last_count_and_name }}",            │
+│  351      "preorder": "Jetzt vorbestellen",                                  │
+│  352      "preorder_badge": "Vorbestellung",                                 │
+│  353      "preorder_info": "Dieses Produkt ist derzeit als Vorbestellung     │
+│  verfügbar.",                                                                │
+│  354      "preorder_notice": "Dieses Produkt wird am {{date}} versendet.",   │
+│  355      "preorder_warning_html": "* Durch Klicken auf 'Vorbestellen'       │
+│  <strong>erkenne ich an, dass ich einen vorbestellten Artikel kaufe, keinen  │
+│   vorrätigen Artikel</strong> und stimme den Allgemeinen                     │
+│  Geschäftsbedingungen des Vorbestellprozesses zu.",                          │
+│  356      "badges": {                                                        │
+│  357        "new": "Neu",                                                    │
+│  358        "best_seller": "Bestseller",                                     │
+│  359        "featured": "Empfohlen",                                         │
+│  360        "on_sale": "Im Angebot",                                         │
+│  361        "coming_soon": "Bald verfügbar",                                 │
+│  362        "pre_order": "Vorbestellung",                                    │
+│  363        "sold_out": "Ausverkauft"                                        │
+│  364      }                                                                  │
+│  365    },                                                                   │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  locales/es.json                                                             │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note' is missing                               │
+│                                                                              │
+│  283    "product": {                                                         │
+│  284      "label": "Producto",                                               │
+│  285      "description": "Descripción",                                      │
+│  286      "vendor": "Vendedor",                                              │
+│  287      "sku": "SKU",                                                      │
+│  288      "choose_options": "Elegir opciones",                               │
+│  289      "select_size": "Selecciona la talla",                              │
+│  290      "view_product": "Ver producto",                                    │
+│  291      "go_to_title": "Ir a {{title}}",                                   │
+│  292      "go_back": "Regresar",                                             │
+│  293      "unavailable": "No disponible",                                    │
+│  294      "sold_out": "Agotado",                                             │
+│  295      "on_sale": "En oferta",                                            │
+│  296      "taxes_included": "Impuestos incluidos.",                          │
+│  297      "duties_included": "Derechos incluidos.",                          │
+│  298      "duties_and_taxes_included": "Derechos e impuestos incluidos.",    │
+│  299      "price_regular": "Precio regular",                                 │
+│  300      "price_sale": "Precio de oferta",                                  │
+│  301      "price_unit": "Precio unitario",                                   │
+│  302      "unit_price_separator": "por",                                     │
+│  303      "price_min": "Precio mínimo",                                      │
+│  304      "price_max": "Precio máximo",                                      │
+│  305      "price_from": "Desde",                                             │
+│  306      "subscription": "Suscripción",                                     │
+│  307      "view_subscription_policy": "Ver política de suscripción",         │
+│  308      "from_price_per_html": "desde {{price}}/cada uno",                 │
+│  309      "inventory_in_stock": "En stock",                                  │
+│  310      "inventory_in_stock_show_count": "{{quantity}} en stock",          │
+│  311      "inventory_low_stock": "Quedan pocos. Ordena pronto.",             │
+│  312      "inventory_low_stock_show_count": "Solo quedan {{quantity}} en     │
+│  stock. Ordena pronto.",                                                     │
+│  313      "inventory_out_of_stock": "Agotado",                               │
+│  314      "inventory_out_of_stock_continue_selling": "En stock",             │
+│  315      "pickup_available": "Recogida disponible",                         │
+│  316      "pickup_availability": "Disponibilidad de recogida",               │
+│  317      "pickup_available_at_html": "Recogida disponible en <span          │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  318      "pickup_unavailable": "Recogida no disponible",                    │
+│  319      "pickup_unavailable_at_html": "Recogida actualmente no disponible  │
+│   en <span class=\"color-foreground\">{{location_name}}</span>",             │
+│  320      "pickup_refresh_availability": "Actualizar disponibilidad",        │
+│  321      "pickup_view_store_info": "Ver información de la tienda",          │
+│  322      "pickup_check_other_stores": "Verificar disponibilidad en otras    │
+│  tiendas",                                                                   │
+│  323      "selling_plan_one_time_purchase": "Compra única",                  │
+│  324      "selling_plan_purchase_options": "Opciones de compra",             │
+│  325      "size_guide": "Guía de tallas",                                    │
+│  326      "quantity": "Cantidad",                                            │
+│  327      "quantity_decrease_for_product": "Disminuir cantidad para          │
+│  {{product}}",                                                               │
+│  328      "quantity_increase_for_product": "Aumentar cantidad para           │
+│  {{product}}",                                                               │
+│  329      "shipping_policy_html": "<a href=\"{{link}}\">Envío</a> calculado  │
+│   al finalizar la compra.",                                                  │
+│  330      "media_gallery": "Galería de medios",                              │
+│  331      "media_open_with_index": "Abrir medios {{index}} en modal",        │
+│  332      "media_xr_button": "Ver en tu espacio",                            │
+│  333      "media_xr_button_label": "Ver en tu espacio, carga el artículo en  │
+│   ventana de realidad aumentada",                                            │
+│  334      "quick_cart_empty": "El carrito rápido está actualmente vacío",    │
+│  335      "quick_cart_empty_content": "Aún no se ha seleccionado ningún      │
+│  producto.",                                                                 │
+│  336      "as_seen_on": "Como se vio en",                                    │
+│  337      "as_seen_on_info": "{{brand}} utilizando ",                        │
+│  338      "optional": "Opcional",                                            │
+│  339      "variant_sold_out_or_unavailable": "Variante agotada o no          │
+│  disponible",                                                                │
+│  340      "value_unavailable": "{{ option_value }} - No disponible",         │
+│  341      "quantity_in_cart_html": "<span                                    │
+│  class=\"quantity-cart\">{{quantity}}</span> en el carrito",                 │
+│  342      "quantity_multiplies_of": "Múltiplos de {{quantity}}",             │
+│  343      "quantity_minimum_of": "Mínimo de {{quantity}}",                   │
+│  344      "quantity_maximum_of": "Máximo de {{quantity}}",                   │
+│  345      "selling_plan_subscription_type": "Tipo de suscripción",           │
+│  346      "discount_badge": "{{percentage}} % de descuento",                 │
+│  347      "discount_badge_html": "<span                                      │
+│  class=\"percentage\">{{percentage}}</span>% de descuento",                  │
+│  348      "variant_info": "Disponible en ",                                  │
+│  349      "variant_info_one_option": "Disponible en {{                       │
+│  option_count_and_name }}",                                                  │
+│  350      "variant_info_multiple_options": "Disponible en {{                 │
+│  options_count_and_name }} y {{ option_last_count_and_name }}",              │
+│  351      "preorder": "Preordenar ahora",                                    │
+│  352      "preorder_badge": "Preorden",                                      │
+│  353      "preorder_info": "Este producto está actualmente en preorden.",    │
+│  354      "preorder_notice": "Este producto se enviará el {{date}}.",        │
+│  355      "preorder_warning_html": "* Al hacer clic en 'Preorden',           │
+│  <strong>reconozco que estoy comprando un artículo en preorden, no un        │
+│  producto en stock</strong>, y acepto los Términos y Condiciones del         │
+│  proceso de preorden.",                                                      │
+│  356      "badges": {                                                        │
+│  357        "new": "Nuevo",                                                  │
+│  358        "best_seller": "Más vendido",                                    │
+│  359        "featured": "Destacado",                                         │
+│  360        "on_sale": "En oferta",                                          │
+│  361        "coming_soon": "Próximamente",                                   │
+│  362        "pre_order": "Preordenar",                                       │
+│  363        "sold_out": "Agotado"                                            │
+│  364      }                                                                  │
+│  365    },                                                                   │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note_placeholder' is missing                   │
+│                                                                              │
+│  283    "product": {                                                         │
+│  284      "label": "Producto",                                               │
+│  285      "description": "Descripción",                                      │
+│  286      "vendor": "Vendedor",                                              │
+│  287      "sku": "SKU",                                                      │
+│  288      "choose_options": "Elegir opciones",                               │
+│  289      "select_size": "Selecciona la talla",                              │
+│  290      "view_product": "Ver producto",                                    │
+│  291      "go_to_title": "Ir a {{title}}",                                   │
+│  292      "go_back": "Regresar",                                             │
+│  293      "unavailable": "No disponible",                                    │
+│  294      "sold_out": "Agotado",                                             │
+│  295      "on_sale": "En oferta",                                            │
+│  296      "taxes_included": "Impuestos incluidos.",                          │
+│  297      "duties_included": "Derechos incluidos.",                          │
+│  298      "duties_and_taxes_included": "Derechos e impuestos incluidos.",    │
+│  299      "price_regular": "Precio regular",                                 │
+│  300      "price_sale": "Precio de oferta",                                  │
+│  301      "price_unit": "Precio unitario",                                   │
+│  302      "unit_price_separator": "por",                                     │
+│  303      "price_min": "Precio mínimo",                                      │
+│  304      "price_max": "Precio máximo",                                      │
+│  305      "price_from": "Desde",                                             │
+│  306      "subscription": "Suscripción",                                     │
+│  307      "view_subscription_policy": "Ver política de suscripción",         │
+│  308      "from_price_per_html": "desde {{price}}/cada uno",                 │
+│  309      "inventory_in_stock": "En stock",                                  │
+│  310      "inventory_in_stock_show_count": "{{quantity}} en stock",          │
+│  311      "inventory_low_stock": "Quedan pocos. Ordena pronto.",             │
+│  312      "inventory_low_stock_show_count": "Solo quedan {{quantity}} en     │
+│  stock. Ordena pronto.",                                                     │
+│  313      "inventory_out_of_stock": "Agotado",                               │
+│  314      "inventory_out_of_stock_continue_selling": "En stock",             │
+│  315      "pickup_available": "Recogida disponible",                         │
+│  316      "pickup_availability": "Disponibilidad de recogida",               │
+│  317      "pickup_available_at_html": "Recogida disponible en <span          │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  318      "pickup_unavailable": "Recogida no disponible",                    │
+│  319      "pickup_unavailable_at_html": "Recogida actualmente no disponible  │
+│   en <span class=\"color-foreground\">{{location_name}}</span>",             │
+│  320      "pickup_refresh_availability": "Actualizar disponibilidad",        │
+│  321      "pickup_view_store_info": "Ver información de la tienda",          │
+│  322      "pickup_check_other_stores": "Verificar disponibilidad en otras    │
+│  tiendas",                                                                   │
+│  323      "selling_plan_one_time_purchase": "Compra única",                  │
+│  324      "selling_plan_purchase_options": "Opciones de compra",             │
+│  325      "size_guide": "Guía de tallas",                                    │
+│  326      "quantity": "Cantidad",                                            │
+│  327      "quantity_decrease_for_product": "Disminuir cantidad para          │
+│  {{product}}",                                                               │
+│  328      "quantity_increase_for_product": "Aumentar cantidad para           │
+│  {{product}}",                                                               │
+│  329      "shipping_policy_html": "<a href=\"{{link}}\">Envío</a> calculado  │
+│   al finalizar la compra.",                                                  │
+│  330      "media_gallery": "Galería de medios",                              │
+│  331      "media_open_with_index": "Abrir medios {{index}} en modal",        │
+│  332      "media_xr_button": "Ver en tu espacio",                            │
+│  333      "media_xr_button_label": "Ver en tu espacio, carga el artículo en  │
+│   ventana de realidad aumentada",                                            │
+│  334      "quick_cart_empty": "El carrito rápido está actualmente vacío",    │
+│  335      "quick_cart_empty_content": "Aún no se ha seleccionado ningún      │
+│  producto.",                                                                 │
+│  336      "as_seen_on": "Como se vio en",                                    │
+│  337      "as_seen_on_info": "{{brand}} utilizando ",                        │
+│  338      "optional": "Opcional",                                            │
+│  339      "variant_sold_out_or_unavailable": "Variante agotada o no          │
+│  disponible",                                                                │
+│  340      "value_unavailable": "{{ option_value }} - No disponible",         │
+│  341      "quantity_in_cart_html": "<span                                    │
+│  class=\"quantity-cart\">{{quantity}}</span> en el carrito",                 │
+│  342      "quantity_multiplies_of": "Múltiplos de {{quantity}}",             │
+│  343      "quantity_minimum_of": "Mínimo de {{quantity}}",                   │
+│  344      "quantity_maximum_of": "Máximo de {{quantity}}",                   │
+│  345      "selling_plan_subscription_type": "Tipo de suscripción",           │
+│  346      "discount_badge": "{{percentage}} % de descuento",                 │
+│  347      "discount_badge_html": "<span                                      │
+│  class=\"percentage\">{{percentage}}</span>% de descuento",                  │
+│  348      "variant_info": "Disponible en ",                                  │
+│  349      "variant_info_one_option": "Disponible en {{                       │
+│  option_count_and_name }}",                                                  │
+│  350      "variant_info_multiple_options": "Disponible en {{                 │
+│  options_count_and_name }} y {{ option_last_count_and_name }}",              │
+│  351      "preorder": "Preordenar ahora",                                    │
+│  352      "preorder_badge": "Preorden",                                      │
+│  353      "preorder_info": "Este producto está actualmente en preorden.",    │
+│  354      "preorder_notice": "Este producto se enviará el {{date}}.",        │
+│  355      "preorder_warning_html": "* Al hacer clic en 'Preorden',           │
+│  <strong>reconozco que estoy comprando un artículo en preorden, no un        │
+│  producto en stock</strong>, y acepto los Términos y Condiciones del         │
+│  proceso de preorden.",                                                      │
+│  356      "badges": {                                                        │
+│  357        "new": "Nuevo",                                                  │
+│  358        "best_seller": "Más vendido",                                    │
+│  359        "featured": "Destacado",                                         │
+│  360        "on_sale": "En oferta",                                          │
+│  361        "coming_soon": "Próximamente",                                   │
+│  362        "pre_order": "Preordenar",                                       │
+│  363        "sold_out": "Agotado"                                            │
+│  364      }                                                                  │
+│  365    },                                                                   │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  locales/fr.json                                                             │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note' is missing                               │
+│                                                                              │
+│  22    "product": {                                                          │
+│  23      "label": "Produit",                                                 │
+│  24      "description": "Description",                                       │
+│  25      "vendor": "Vendeur",                                                │
+│  26      "sku": "SKU",                                                       │
+│  27      "choose_options": "Choisissez des options",                         │
+│  28      "select_size": "Choisir la taille",                                 │
+│  29      "view_product": "Voir le produit",                                  │
+│  30      "go_to_title": "Aller à {{title}}",                                 │
+│  31      "go_back": "Retour",                                                │
+│  32      "unavailable": "Indisponible",                                      │
+│  33      "sold_out": "Épuisé",                                               │
+│  34      "on_sale": "En solde",                                              │
+│  35      "taxes_included": "Taxes incluses.",                                │
+│  36      "duties_included": "Frais de douane inclus.",                       │
+│  37      "duties_and_taxes_included": "Frais de douane et taxes inclus.",    │
+│  38      "price_regular": "Prix régulier",                                   │
+│  39      "price_sale": "Prix réduit",                                        │
+│  40      "price_unit": "Prix unitaire",                                      │
+│  41      "unit_price_separator": "par",                                      │
+│  42      "price_min": "Prix minimum",                                        │
+│  43      "price_max": "Prix maximum",                                        │
+│  44      "price_from": "À partir de",                                        │
+│  45      "subscription": "Abonnement",                                       │
+│  46      "view_subscription_policy": "Voir la politique d'abonnement",       │
+│  47      "from_price_per_html": "à partir de {{price}}/chacun",              │
+│  48      "inventory_in_stock": "En stock",                                   │
+│  49      "inventory_in_stock_show_count": "{{quantity}} en stock",           │
+│  50      "inventory_low_stock": "Il en reste peu. Commandez bientôt.",       │
+│  51      "inventory_low_stock_show_count": "Il ne reste que {{quantity}} en  │
+│   stock. Commandez bientôt.",                                                │
+│  52      "inventory_out_of_stock": "Rupture de stock",                       │
+│  53      "inventory_out_of_stock_continue_selling": "En stock",              │
+│  54      "pickup_available": "Ramassage disponible",                         │
+│  55      "pickup_availability": "Disponibilité du ramassage",                │
+│  56      "pickup_available_at_html": "Ramassage disponible à <span           │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  57      "pickup_unavailable": "Ramassage indisponible",                     │
+│  58      "pickup_unavailable_at_html": "Ramassage actuellement indisponible  │
+│   à <span class=\"color-foreground\">{{location_name}}</span>",              │
+│  59      "pickup_refresh_availability": "Rafraîchir la disponibilité",       │
+│  60      "pickup_view_store_info": "Voir les informations du magasin",       │
+│  61      "pickup_check_other_stores": "Vérifier la disponibilité dans        │
+│  d'autres magasins",                                                         │
+│  62      "selling_plan_one_time_purchase": "Achat unique",                   │
+│  63      "selling_plan_purchase_options": "Options d'achat",                 │
+│  64      "size_guide": "Guide des tailles",                                  │
+│  65      "quantity": "Quantité",                                             │
+│  66      "quantity_decrease_for_product": "Diminuer la quantité pour         │
+│  {{product}}",                                                               │
+│  67      "quantity_increase_for_product": "Augmenter la quantité pour        │
+│  {{product}}",                                                               │
+│  68      "shipping_policy_html": "<a href=\"{{link}}\">Livraison</a>         │
+│  calculée lors du paiement.",                                                │
+│  69      "media_gallery": "Galerie de médias",                               │
+│  70      "media_open_with_index": "Ouvrir le média {{index}} dans une        │
+│  fenêtre modale",                                                            │
+│  71      "media_xr_button": "Voir dans votre espace",                        │
+│  72      "media_xr_button_label": "Voir dans votre espace, charge l'élément  │
+│   dans une fenêtre de réalité augmentée",                                    │
+│  73      "quick_cart_empty": "Le panier rapide est actuellement vide",       │
+│  74      "quick_cart_empty_content": "Aucun produit n'a encore été           │
+│  sélectionné.",                                                              │
+│  75      "as_seen_on": "Vu sur",                                             │
+│  76      "as_seen_on_info": "{{brand}} utilisant",                           │
+│  77      "optional": "Optionnel",                                            │
+│  78      "variant_sold_out_or_unavailable": "Variante épuisée ou             │
+│  indisponible",                                                              │
+│  79      "value_unavailable": "{{ option_value }} - Indisponible",           │
+│  80      "quantity_in_cart_html": "<span                                     │
+│  class=\"quantity-cart\">{{quantity}}</span> dans le panier",                │
+│  81      "quantity_multiplies_of": "Multiples de {{quantity}}",              │
+│  82      "quantity_minimum_of": "Minimum de {{quantity}}",                   │
+│  83      "quantity_maximum_of": "Maximum de {{quantity}}",                   │
+│  84      "selling_plan_subscription_type": "Type d'abonnement",              │
+│  85      "discount_badge": "{{percentage}} % de réduction",                  │
+│  86      "discount_badge_html": "<span                                       │
+│  class=\"percentage\">{{percentage}}</span>% de réduction",                  │
+│  87      "variant_info": "Disponible en ",                                   │
+│  88      "variant_info_one_option": "Disponible en {{ option_count_and_name  │
+│   }}",                                                                       │
+│  89      "variant_info_multiple_options": "Disponible en {{                  │
+│  options_count_and_name }} et {{ option_last_count_and_name }}",             │
+│  90      "preorder": "Précommander maintenant",                              │
+│  91      "preorder_badge": "Précommande",                                    │
+│  92      "preorder_info": "Ce produit est actuellement en précommande.",     │
+│  93      "preorder_notice": "Ce produit sera expédié le {{date}}.",          │
+│  94      "preorder_warning_html": "* En cliquant sur 'Précommande',          │
+│  <strong>je reconnais que j'achète un article en précommande, et non un      │
+│  produit en stock</strong>, et j'accepte les Termes et Conditions du         │
+│  processus de précommande.",                                                 │
+│  95      "badges": {                                                         │
+│  96        "new": "Nouveau",                                                 │
+│  97        "best_seller": "Best-seller",                                     │
+│  98        "featured": "En vedette",                                         │
+│  99        "on_sale": "En solde",                                            │
+│  100        "coming_soon": "Bientôt disponible",                             │
+│  101        "pre_order": "Précommander",                                     │
+│  102        "sold_out": "Épuisé"                                             │
+│  103      }                                                                  │
+│  104    },                                                                   │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note_placeholder' is missing                   │
+│                                                                              │
+│  22    "product": {                                                          │
+│  23      "label": "Produit",                                                 │
+│  24      "description": "Description",                                       │
+│  25      "vendor": "Vendeur",                                                │
+│  26      "sku": "SKU",                                                       │
+│  27      "choose_options": "Choisissez des options",                         │
+│  28      "select_size": "Choisir la taille",                                 │
+│  29      "view_product": "Voir le produit",                                  │
+│  30      "go_to_title": "Aller à {{title}}",                                 │
+│  31      "go_back": "Retour",                                                │
+│  32      "unavailable": "Indisponible",                                      │
+│  33      "sold_out": "Épuisé",                                               │
+│  34      "on_sale": "En solde",                                              │
+│  35      "taxes_included": "Taxes incluses.",                                │
+│  36      "duties_included": "Frais de douane inclus.",                       │
+│  37      "duties_and_taxes_included": "Frais de douane et taxes inclus.",    │
+│  38      "price_regular": "Prix régulier",                                   │
+│  39      "price_sale": "Prix réduit",                                        │
+│  40      "price_unit": "Prix unitaire",                                      │
+│  41      "unit_price_separator": "par",                                      │
+│  42      "price_min": "Prix minimum",                                        │
+│  43      "price_max": "Prix maximum",                                        │
+│  44      "price_from": "À partir de",                                        │
+│  45      "subscription": "Abonnement",                                       │
+│  46      "view_subscription_policy": "Voir la politique d'abonnement",       │
+│  47      "from_price_per_html": "à partir de {{price}}/chacun",              │
+│  48      "inventory_in_stock": "En stock",                                   │
+│  49      "inventory_in_stock_show_count": "{{quantity}} en stock",           │
+│  50      "inventory_low_stock": "Il en reste peu. Commandez bientôt.",       │
+│  51      "inventory_low_stock_show_count": "Il ne reste que {{quantity}} en  │
+│   stock. Commandez bientôt.",                                                │
+│  52      "inventory_out_of_stock": "Rupture de stock",                       │
+│  53      "inventory_out_of_stock_continue_selling": "En stock",              │
+│  54      "pickup_available": "Ramassage disponible",                         │
+│  55      "pickup_availability": "Disponibilité du ramassage",                │
+│  56      "pickup_available_at_html": "Ramassage disponible à <span           │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  57      "pickup_unavailable": "Ramassage indisponible",                     │
+│  58      "pickup_unavailable_at_html": "Ramassage actuellement indisponible  │
+│   à <span class=\"color-foreground\">{{location_name}}</span>",              │
+│  59      "pickup_refresh_availability": "Rafraîchir la disponibilité",       │
+│  60      "pickup_view_store_info": "Voir les informations du magasin",       │
+│  61      "pickup_check_other_stores": "Vérifier la disponibilité dans        │
+│  d'autres magasins",                                                         │
+│  62      "selling_plan_one_time_purchase": "Achat unique",                   │
+│  63      "selling_plan_purchase_options": "Options d'achat",                 │
+│  64      "size_guide": "Guide des tailles",                                  │
+│  65      "quantity": "Quantité",                                             │
+│  66      "quantity_decrease_for_product": "Diminuer la quantité pour         │
+│  {{product}}",                                                               │
+│  67      "quantity_increase_for_product": "Augmenter la quantité pour        │
+│  {{product}}",                                                               │
+│  68      "shipping_policy_html": "<a href=\"{{link}}\">Livraison</a>         │
+│  calculée lors du paiement.",                                                │
+│  69      "media_gallery": "Galerie de médias",                               │
+│  70      "media_open_with_index": "Ouvrir le média {{index}} dans une        │
+│  fenêtre modale",                                                            │
+│  71      "media_xr_button": "Voir dans votre espace",                        │
+│  72      "media_xr_button_label": "Voir dans votre espace, charge l'élément  │
+│   dans une fenêtre de réalité augmentée",                                    │
+│  73      "quick_cart_empty": "Le panier rapide est actuellement vide",       │
+│  74      "quick_cart_empty_content": "Aucun produit n'a encore été           │
+│  sélectionné.",                                                              │
+│  75      "as_seen_on": "Vu sur",                                             │
+│  76      "as_seen_on_info": "{{brand}} utilisant",                           │
+│  77      "optional": "Optionnel",                                            │
+│  78      "variant_sold_out_or_unavailable": "Variante épuisée ou             │
+│  indisponible",                                                              │
+│  79      "value_unavailable": "{{ option_value }} - Indisponible",           │
+│  80      "quantity_in_cart_html": "<span                                     │
+│  class=\"quantity-cart\">{{quantity}}</span> dans le panier",                │
+│  81      "quantity_multiplies_of": "Multiples de {{quantity}}",              │
+│  82      "quantity_minimum_of": "Minimum de {{quantity}}",                   │
+│  83      "quantity_maximum_of": "Maximum de {{quantity}}",                   │
+│  84      "selling_plan_subscription_type": "Type d'abonnement",              │
+│  85      "discount_badge": "{{percentage}} % de réduction",                  │
+│  86      "discount_badge_html": "<span                                       │
+│  class=\"percentage\">{{percentage}}</span>% de réduction",                  │
+│  87      "variant_info": "Disponible en ",                                   │
+│  88      "variant_info_one_option": "Disponible en {{ option_count_and_name  │
+│   }}",                                                                       │
+│  89      "variant_info_multiple_options": "Disponible en {{                  │
+│  options_count_and_name }} et {{ option_last_count_and_name }}",             │
+│  90      "preorder": "Précommander maintenant",                              │
+│  91      "preorder_badge": "Précommande",                                    │
+│  92      "preorder_info": "Ce produit est actuellement en précommande.",     │
+│  93      "preorder_notice": "Ce produit sera expédié le {{date}}.",          │
+│  94      "preorder_warning_html": "* En cliquant sur 'Précommande',          │
+│  <strong>je reconnais que j'achète un article en précommande, et non un      │
+│  produit en stock</strong>, et j'accepte les Termes et Conditions du         │
+│  processus de précommande.",                                                 │
+│  95      "badges": {                                                         │
+│  96        "new": "Nouveau",                                                 │
+│  97        "best_seller": "Best-seller",                                     │
+│  98        "featured": "En vedette",                                         │
+│  99        "on_sale": "En solde",                                            │
+│  100        "coming_soon": "Bientôt disponible",                             │
+│  101        "pre_order": "Précommander",                                     │
+│  102        "sold_out": "Épuisé"                                             │
+│  103      }                                                                  │
+│  104    },                                                                   │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  locales/it.json                                                             │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note' is missing                               │
+│                                                                              │
+│  22    "product": {                                                          │
+│  23      "label": "Prodotto",                                                │
+│  24      "description": "Descrizione",                                       │
+│  25      "vendor": "Fornitore",                                              │
+│  26      "sku": "SKU",                                                       │
+│  27      "choose_options": "Scegli opzioni",                                 │
+│  28      "select_size": "Selezionare la dimensione",                         │
+│  29      "view_product": "Visualizza prodotto",                              │
+│  30      "go_to_title": "Vai a {{title}}",                                   │
+│  31      "go_back": "Torna indietro",                                        │
+│  32      "unavailable": "Non disponibile",                                   │
+│  33      "sold_out": "Esaurito",                                             │
+│  34      "on_sale": "In saldo",                                              │
+│  35      "taxes_included": "Tasse incluse.",                                 │
+│  36      "duties_included": "Dazi inclusi.",                                 │
+│  37      "duties_and_taxes_included": "Dazi e tasse inclusi.",               │
+│  38      "price_regular": "Prezzo regolare",                                 │
+│  39      "price_sale": "Prezzo di vendita",                                  │
+│  40      "price_unit": "Prezzo unitario",                                    │
+│  41      "unit_price_separator": "per",                                      │
+│  42      "price_min": "Prezzo minimo",                                       │
+│  43      "price_max": "Prezzo massimo",                                      │
+│  44      "price_from": "Da",                                                 │
+│  45      "subscription": "Abbonamento",                                      │
+│  46      "view_subscription_policy": "Visualizza la politica di              │
+│  abbonamento",                                                               │
+│  47      "from_price_per_html": "da {{price}}/ciascuno",                     │
+│  48      "inventory_in_stock": "Disponibile",                                │
+│  49      "inventory_in_stock_show_count": "{{quantity}} disponibili",        │
+│  50      "inventory_low_stock": "Solo pochi rimasti. Ordina presto.",        │
+│  51      "inventory_low_stock_show_count": "Solo {{quantity}} rimasti in     │
+│  stock. Ordina presto.",                                                     │
+│  52      "inventory_out_of_stock": "Esaurito",                               │
+│  53      "inventory_out_of_stock_continue_selling": "Disponibile",           │
+│  54      "pickup_available": "Ritiro disponibile",                           │
+│  55      "pickup_availability": "Disponibilità ritiro",                      │
+│  56      "pickup_available_at_html": "Ritiro disponibile presso <span        │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  57      "pickup_unavailable": "Ritiro non disponibile",                     │
+│  58      "pickup_unavailable_at_html": "Ritiro attualmente non disponibile   │
+│  presso <span class=\"color-foreground\">{{location_name}}</span>",          │
+│  59      "pickup_refresh_availability": "Aggiorna disponibilità",            │
+│  60      "pickup_view_store_info": "Visualizza informazioni del negozio",    │
+│  61      "pickup_check_other_stores": "Controlla la disponibilità in altri   │
+│  negozi",                                                                    │
+│  62      "selling_plan_one_time_purchase": "Acquisto singolo",               │
+│  63      "selling_plan_purchase_options": "Opzioni di acquisto",             │
+│  64      "size_guide": "Guida alle taglie",                                  │
+│  65      "quantity": "Quantità",                                             │
+│  66      "quantity_decrease_for_product": "Diminuisci la quantità per        │
+│  {{product}}",                                                               │
+│  67      "quantity_increase_for_product": "Aumenta la quantità per           │
+│  {{product}}",                                                               │
+│  68      "shipping_policy_html": "<a href=\"{{link}}\">Spedizione</a>        │
+│  calcolata al checkout.",                                                    │
+│  69      "media_gallery": "Galleria multimediale",                           │
+│  70      "media_open_with_index": "Apri il media {{index}} in modale",       │
+│  71      "media_xr_button": "Visualizza nel tuo spazio",                     │
+│  72      "media_xr_button_label": "Visualizza nel tuo spazio, carica         │
+│  l'oggetto in finestra di realtà aumentata",                                 │
+│  73      "quick_cart_empty": "Il carrello rapido è attualmente vuoto",       │
+│  74      "quick_cart_empty_content": "Non è stato ancora selezionato alcun   │
+│  prodotto.",                                                                 │
+│  75      "as_seen_on": "Come visto su",                                      │
+│  76      "as_seen_on_info": "{{brand}} utilizzando ",                        │
+│  77      "optional": "Opzionale",                                            │
+│  78      "variant_sold_out_or_unavailable": "Variante esaurita o non         │
+│  disponibile",                                                               │
+│  79      "value_unavailable": "{{ option_value }} - Non disponibile",        │
+│  80      "quantity_in_cart_html": "<span                                     │
+│  class=\"quantity-cart\">{{quantity}}</span> nel carrello",                  │
+│  81      "quantity_multiplies_of": "Multipli di {{quantity}}",               │
+│  82      "quantity_minimum_of": "Minimo di {{quantity}}",                    │
+│  83      "quantity_maximum_of": "Massimo di {{quantity}}",                   │
+│  84      "selling_plan_subscription_type": "Tipo di abbonamento",            │
+│  85      "discount_badge": "{{percentage}} % di sconto",                     │
+│  86      "discount_badge_html": "<span                                       │
+│  class=\"percentage\">{{percentage}}</span>% di sconto",                     │
+│  87      "variant_info": "Disponibile in ",                                  │
+│  88      "variant_info_one_option": "Disponibile in {{                       │
+│  option_count_and_name }}",                                                  │
+│  89      "variant_info_multiple_options": "Disponibile in {{                 │
+│  options_count_and_name }} e {{ option_last_count_and_name }}",              │
+│  90      "preorder": "Pre-ordina ora",                                       │
+│  91      "preorder_badge": "Pre-ordine",                                     │
+│  92      "preorder_info": "Questo prodotto è attualmente in pre-ordine.",    │
+│  93      "preorder_notice": "Questo prodotto sarà spedito il {{date}}.",     │
+│  94      "preorder_warning_html": "* Cliccando su 'Pre-ordine',              │
+│  <strong>riconosco che sto acquistando un articolo in pre-ordine, non un     │
+│  prodotto disponibile in magazzino</strong> e accetto i Termini e            │
+│  Condizioni del processo di pre-ordine.",                                    │
+│  95      "badges": {                                                         │
+│  96        "new": "Nuovo",                                                   │
+│  97        "best_seller": "Più venduto",                                     │
+│  98        "featured": "In primo piano",                                     │
+│  99        "on_sale": "In offerta",                                          │
+│  100        "coming_soon": "In arrivo",                                      │
+│  101        "pre_order": "Pre-ordine",                                       │
+│  102        "sold_out": "Esaurito"                                           │
+│  103      }                                                                  │
+│  104    },                                                                   │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note_placeholder' is missing                   │
+│                                                                              │
+│  22    "product": {                                                          │
+│  23      "label": "Prodotto",                                                │
+│  24      "description": "Descrizione",                                       │
+│  25      "vendor": "Fornitore",                                              │
+│  26      "sku": "SKU",                                                       │
+│  27      "choose_options": "Scegli opzioni",                                 │
+│  28      "select_size": "Selezionare la dimensione",                         │
+│  29      "view_product": "Visualizza prodotto",                              │
+│  30      "go_to_title": "Vai a {{title}}",                                   │
+│  31      "go_back": "Torna indietro",                                        │
+│  32      "unavailable": "Non disponibile",                                   │
+│  33      "sold_out": "Esaurito",                                             │
+│  34      "on_sale": "In saldo",                                              │
+│  35      "taxes_included": "Tasse incluse.",                                 │
+│  36      "duties_included": "Dazi inclusi.",                                 │
+│  37      "duties_and_taxes_included": "Dazi e tasse inclusi.",               │
+│  38      "price_regular": "Prezzo regolare",                                 │
+│  39      "price_sale": "Prezzo di vendita",                                  │
+│  40      "price_unit": "Prezzo unitario",                                    │
+│  41      "unit_price_separator": "per",                                      │
+│  42      "price_min": "Prezzo minimo",                                       │
+│  43      "price_max": "Prezzo massimo",                                      │
+│  44      "price_from": "Da",                                                 │
+│  45      "subscription": "Abbonamento",                                      │
+│  46      "view_subscription_policy": "Visualizza la politica di              │
+│  abbonamento",                                                               │
+│  47      "from_price_per_html": "da {{price}}/ciascuno",                     │
+│  48      "inventory_in_stock": "Disponibile",                                │
+│  49      "inventory_in_stock_show_count": "{{quantity}} disponibili",        │
+│  50      "inventory_low_stock": "Solo pochi rimasti. Ordina presto.",        │
+│  51      "inventory_low_stock_show_count": "Solo {{quantity}} rimasti in     │
+│  stock. Ordina presto.",                                                     │
+│  52      "inventory_out_of_stock": "Esaurito",                               │
+│  53      "inventory_out_of_stock_continue_selling": "Disponibile",           │
+│  54      "pickup_available": "Ritiro disponibile",                           │
+│  55      "pickup_availability": "Disponibilità ritiro",                      │
+│  56      "pickup_available_at_html": "Ritiro disponibile presso <span        │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  57      "pickup_unavailable": "Ritiro non disponibile",                     │
+│  58      "pickup_unavailable_at_html": "Ritiro attualmente non disponibile   │
+│  presso <span class=\"color-foreground\">{{location_name}}</span>",          │
+│  59      "pickup_refresh_availability": "Aggiorna disponibilità",            │
+│  60      "pickup_view_store_info": "Visualizza informazioni del negozio",    │
+│  61      "pickup_check_other_stores": "Controlla la disponibilità in altri   │
+│  negozi",                                                                    │
+│  62      "selling_plan_one_time_purchase": "Acquisto singolo",               │
+│  63      "selling_plan_purchase_options": "Opzioni di acquisto",             │
+│  64      "size_guide": "Guida alle taglie",                                  │
+│  65      "quantity": "Quantità",                                             │
+│  66      "quantity_decrease_for_product": "Diminuisci la quantità per        │
+│  {{product}}",                                                               │
+│  67      "quantity_increase_for_product": "Aumenta la quantità per           │
+│  {{product}}",                                                               │
+│  68      "shipping_policy_html": "<a href=\"{{link}}\">Spedizione</a>        │
+│  calcolata al checkout.",                                                    │
+│  69      "media_gallery": "Galleria multimediale",                           │
+│  70      "media_open_with_index": "Apri il media {{index}} in modale",       │
+│  71      "media_xr_button": "Visualizza nel tuo spazio",                     │
+│  72      "media_xr_button_label": "Visualizza nel tuo spazio, carica         │
+│  l'oggetto in finestra di realtà aumentata",                                 │
+│  73      "quick_cart_empty": "Il carrello rapido è attualmente vuoto",       │
+│  74      "quick_cart_empty_content": "Non è stato ancora selezionato alcun   │
+│  prodotto.",                                                                 │
+│  75      "as_seen_on": "Come visto su",                                      │
+│  76      "as_seen_on_info": "{{brand}} utilizzando ",                        │
+│  77      "optional": "Opzionale",                                            │
+│  78      "variant_sold_out_or_unavailable": "Variante esaurita o non         │
+│  disponibile",                                                               │
+│  79      "value_unavailable": "{{ option_value }} - Non disponibile",        │
+│  80      "quantity_in_cart_html": "<span                                     │
+│  class=\"quantity-cart\">{{quantity}}</span> nel carrello",                  │
+│  81      "quantity_multiplies_of": "Multipli di {{quantity}}",               │
+│  82      "quantity_minimum_of": "Minimo di {{quantity}}",                    │
+│  83      "quantity_maximum_of": "Massimo di {{quantity}}",                   │
+│  84      "selling_plan_subscription_type": "Tipo di abbonamento",            │
+│  85      "discount_badge": "{{percentage}} % di sconto",                     │
+│  86      "discount_badge_html": "<span                                       │
+│  class=\"percentage\">{{percentage}}</span>% di sconto",                     │
+│  87      "variant_info": "Disponibile in ",                                  │
+│  88      "variant_info_one_option": "Disponibile in {{                       │
+│  option_count_and_name }}",                                                  │
+│  89      "variant_info_multiple_options": "Disponibile in {{                 │
+│  options_count_and_name }} e {{ option_last_count_and_name }}",              │
+│  90      "preorder": "Pre-ordina ora",                                       │
+│  91      "preorder_badge": "Pre-ordine",                                     │
+│  92      "preorder_info": "Questo prodotto è attualmente in pre-ordine.",    │
+│  93      "preorder_notice": "Questo prodotto sarà spedito il {{date}}.",     │
+│  94      "preorder_warning_html": "* Cliccando su 'Pre-ordine',              │
+│  <strong>riconosco che sto acquistando un articolo in pre-ordine, non un     │
+│  prodotto disponibile in magazzino</strong> e accetto i Termini e            │
+│  Condizioni del processo di pre-ordine.",                                    │
+│  95      "badges": {                                                         │
+│  96        "new": "Nuovo",                                                   │
+│  97        "best_seller": "Più venduto",                                     │
+│  98        "featured": "In primo piano",                                     │
+│  99        "on_sale": "In offerta",                                          │
+│  100        "coming_soon": "In arrivo",                                      │
+│  101        "pre_order": "Pre-ordine",                                       │
+│  102        "sold_out": "Esaurito"                                           │
+│  103      }                                                                  │
+│  104    },                                                                   │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  locales/nl.json                                                             │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note' is missing                               │
+│                                                                              │
+│  22    "product": {                                                          │
+│  23      "label": "Product",                                                 │
+│  24      "description": "Beschrijving",                                      │
+│  25      "vendor": "Leverancier",                                            │
+│  26      "sku": "SKU",                                                       │
+│  27      "choose_options": "Kies opties",                                    │
+│  28      "select_size": "Selecteer maat",                                    │
+│  29      "view_product": "Bekijk product",                                   │
+│  30      "go_to_title": "Ga naar {{title}}",                                 │
+│  31      "go_back": "Ga terug",                                              │
+│  32      "unavailable": "Niet beschikbaar",                                  │
+│  33      "sold_out": "Uitverkocht",                                          │
+│  34      "on_sale": "Uitverkoop",                                            │
+│  35      "taxes_included": "Inclusief belastingen.",                         │
+│  36      "duties_included": "Inclusief rechten.",                            │
+│  37      "duties_and_taxes_included": "Inclusief rechten en belastingen.",   │
+│  38      "price_regular": "Reguliere prijs",                                 │
+│  39      "price_sale": "Uitverkoopprijs",                                    │
+│  40      "price_unit": "Eenheidsprijs",                                      │
+│  41      "unit_price_separator": "per",                                      │
+│  42      "price_min": "Minimale prijs",                                      │
+│  43      "price_max": "Maximale prijs",                                      │
+│  44      "price_from": "Vanaf",                                              │
+│  45      "subscription": "Abonnement",                                       │
+│  46      "view_subscription_policy": "Bekijk abonnementbeleid",              │
+│  47      "from_price_per_html": "vanaf {{price}}/stuk",                      │
+│  48      "inventory_in_stock": "Op voorraad",                                │
+│  49      "inventory_in_stock_show_count": "{{quantity}} op voorraad",        │
+│  50      "inventory_low_stock": "Nog maar een paar over. Bestel snel.",      │
+│  51      "inventory_low_stock_show_count": "Nog maar {{quantity}} op         │
+│  voorraad. Bestel snel.",                                                    │
+│  52      "inventory_out_of_stock": "Niet op voorraad",                       │
+│  53      "inventory_out_of_stock_continue_selling": "Op voorraad",           │
+│  54      "pickup_available": "Afhalen beschikbaar",                          │
+│  55      "pickup_availability": "Afhalen beschikbaar",                       │
+│  56      "pickup_available_at_html": "Afhalen beschikbaar bij <span          │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  57      "pickup_unavailable": "Afhalen niet beschikbaar",                   │
+│  58      "pickup_unavailable_at_html": "Afhalen momenteel niet beschikbaar   │
+│  bij <span class=\"color-foreground\">{{location_name}}</span>",             │
+│  59      "pickup_refresh_availability": "Beschikbaarheid vernieuwen",        │
+│  60      "pickup_view_store_info": "Bekijk winkelinformatie",                │
+│  61      "pickup_check_other_stores": "Controleer beschikbaarheid bij        │
+│  andere winkels",                                                            │
+│  62      "selling_plan_one_time_purchase": "Eenmalige aankoop",              │
+│  63      "selling_plan_purchase_options": "Aankoopopties",                   │
+│  64      "size_guide": "Maattabel",                                          │
+│  65      "quantity": "Hoeveelheid",                                          │
+│  66      "quantity_decrease_for_product": "Hoeveelheid verlagen voor         │
+│  {{product}}",                                                               │
+│  67      "quantity_increase_for_product": "Hoeveelheid verhogen voor         │
+│  {{product}}",                                                               │
+│  68      "shipping_policy_html": "<a href=\"{{link}}\">Verzending</a>        │
+│  berekend bij het afrekenen.",                                               │
+│  69      "media_gallery": "Mediagalerij",                                    │
+│  70      "media_open_with_index": "Open media {{index}} in modaal",          │
+│  71      "media_xr_button": "Bekijk in uw ruimte",                           │
+│  72      "media_xr_button_label": "Bekijk in uw ruimte, laadt item in        │
+│  augmented reality venster",                                                 │
+│  73      "quick_cart_empty": "Snelle winkelwagen is momenteel leeg",         │
+│  74      "quick_cart_empty_content": "Er is nog geen product                 │
+│  geselecteerd.",                                                             │
+│  75      "as_seen_on": "Zoals gezien op",                                    │
+│  76      "as_seen_on_info": "{{brand}} gebruikt",                            │
+│  77      "optional": "Optioneel",                                            │
+│  78      "variant_sold_out_or_unavailable": "Variant uitverkocht of niet     │
+│  beschikbaar",                                                               │
+│  79      "value_unavailable": "{{ option_value }} - Niet beschikbaar",       │
+│  80      "quantity_in_cart_html": "<span                                     │
+│  class=\"quantity-cart\">{{quantity}}</span> in winkelwagen",                │
+│  81      "quantity_multiplies_of": "Veelvouden van {{quantity}}",            │
+│  82      "quantity_minimum_of": "Minimum van {{quantity}}",                  │
+│  83      "quantity_maximum_of": "Maximum van {{quantity}}",                  │
+│  84      "selling_plan_subscription_type": "Abonnementstype",                │
+│  85      "discount_badge": "{{percentage}} % korting",                       │
+│  86      "discount_badge_html": "<span                                       │
+│  class=\"percentage\">{{percentage}}</span>% korting",                       │
+│  87      "variant_info": "Beschikbaar binnen ",                              │
+│  88      "variant_info_one_option": "Beschikbaar in {{                       │
+│  option_count_and_name }}",                                                  │
+│  89      "variant_info_multiple_options": "Beschikbaar in {{                 │
+│  options_count_and_name }} en {{ option_last_count_and_name }}",             │
+│  90      "preorder": "Nu pre-orderen",                                       │
+│  91      "preorder_badge": "Pre-order",                                      │
+│  92      "preorder_info": "Dit product is momenteel beschikbaar voor         │
+│  pre-order.",                                                                │
+│  93      "preorder_notice": "Dit product wordt verzonden op {{date}}.",      │
+│  94      "preorder_warning_html": "* Door op 'Pre-order' te klikken,         │
+│  <strong>erken ik dat ik een pre-order artikel koop, geen product op         │
+│  voorraad</strong>, en ga ik akkoord met de Voorwaarden van het pre-order    │
+│  proces.",                                                                   │
+│  95      "badges": {                                                         │
+│  96        "new": "Nieuw",                                                   │
+│  97        "best_seller": "Bestseller",                                      │
+│  98        "featured": "Aanbevolen",                                         │
+│  99        "on_sale": "In de aanbieding",                                    │
+│  100        "coming_soon": "Binnenkort beschikbaar",                         │
+│  101        "pre_order": "Pre-orderen",                                      │
+│  102        "sold_out": "Uitverkocht"                                        │
+│  103      }                                                                  │
+│  104    },                                                                   │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note_placeholder' is missing                   │
+│                                                                              │
+│  22    "product": {                                                          │
+│  23      "label": "Product",                                                 │
+│  24      "description": "Beschrijving",                                      │
+│  25      "vendor": "Leverancier",                                            │
+│  26      "sku": "SKU",                                                       │
+│  27      "choose_options": "Kies opties",                                    │
+│  28      "select_size": "Selecteer maat",                                    │
+│  29      "view_product": "Bekijk product",                                   │
+│  30      "go_to_title": "Ga naar {{title}}",                                 │
+│  31      "go_back": "Ga terug",                                              │
+│  32      "unavailable": "Niet beschikbaar",                                  │
+│  33      "sold_out": "Uitverkocht",                                          │
+│  34      "on_sale": "Uitverkoop",                                            │
+│  35      "taxes_included": "Inclusief belastingen.",                         │
+│  36      "duties_included": "Inclusief rechten.",                            │
+│  37      "duties_and_taxes_included": "Inclusief rechten en belastingen.",   │
+│  38      "price_regular": "Reguliere prijs",                                 │
+│  39      "price_sale": "Uitverkoopprijs",                                    │
+│  40      "price_unit": "Eenheidsprijs",                                      │
+│  41      "unit_price_separator": "per",                                      │
+│  42      "price_min": "Minimale prijs",                                      │
+│  43      "price_max": "Maximale prijs",                                      │
+│  44      "price_from": "Vanaf",                                              │
+│  45      "subscription": "Abonnement",                                       │
+│  46      "view_subscription_policy": "Bekijk abonnementbeleid",              │
+│  47      "from_price_per_html": "vanaf {{price}}/stuk",                      │
+│  48      "inventory_in_stock": "Op voorraad",                                │
+│  49      "inventory_in_stock_show_count": "{{quantity}} op voorraad",        │
+│  50      "inventory_low_stock": "Nog maar een paar over. Bestel snel.",      │
+│  51      "inventory_low_stock_show_count": "Nog maar {{quantity}} op         │
+│  voorraad. Bestel snel.",                                                    │
+│  52      "inventory_out_of_stock": "Niet op voorraad",                       │
+│  53      "inventory_out_of_stock_continue_selling": "Op voorraad",           │
+│  54      "pickup_available": "Afhalen beschikbaar",                          │
+│  55      "pickup_availability": "Afhalen beschikbaar",                       │
+│  56      "pickup_available_at_html": "Afhalen beschikbaar bij <span          │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  57      "pickup_unavailable": "Afhalen niet beschikbaar",                   │
+│  58      "pickup_unavailable_at_html": "Afhalen momenteel niet beschikbaar   │
+│  bij <span class=\"color-foreground\">{{location_name}}</span>",             │
+│  59      "pickup_refresh_availability": "Beschikbaarheid vernieuwen",        │
+│  60      "pickup_view_store_info": "Bekijk winkelinformatie",                │
+│  61      "pickup_check_other_stores": "Controleer beschikbaarheid bij        │
+│  andere winkels",                                                            │
+│  62      "selling_plan_one_time_purchase": "Eenmalige aankoop",              │
+│  63      "selling_plan_purchase_options": "Aankoopopties",                   │
+│  64      "size_guide": "Maattabel",                                          │
+│  65      "quantity": "Hoeveelheid",                                          │
+│  66      "quantity_decrease_for_product": "Hoeveelheid verlagen voor         │
+│  {{product}}",                                                               │
+│  67      "quantity_increase_for_product": "Hoeveelheid verhogen voor         │
+│  {{product}}",                                                               │
+│  68      "shipping_policy_html": "<a href=\"{{link}}\">Verzending</a>        │
+│  berekend bij het afrekenen.",                                               │
+│  69      "media_gallery": "Mediagalerij",                                    │
+│  70      "media_open_with_index": "Open media {{index}} in modaal",          │
+│  71      "media_xr_button": "Bekijk in uw ruimte",                           │
+│  72      "media_xr_button_label": "Bekijk in uw ruimte, laadt item in        │
+│  augmented reality venster",                                                 │
+│  73      "quick_cart_empty": "Snelle winkelwagen is momenteel leeg",         │
+│  74      "quick_cart_empty_content": "Er is nog geen product                 │
+│  geselecteerd.",                                                             │
+│  75      "as_seen_on": "Zoals gezien op",                                    │
+│  76      "as_seen_on_info": "{{brand}} gebruikt",                            │
+│  77      "optional": "Optioneel",                                            │
+│  78      "variant_sold_out_or_unavailable": "Variant uitverkocht of niet     │
+│  beschikbaar",                                                               │
+│  79      "value_unavailable": "{{ option_value }} - Niet beschikbaar",       │
+│  80      "quantity_in_cart_html": "<span                                     │
+│  class=\"quantity-cart\">{{quantity}}</span> in winkelwagen",                │
+│  81      "quantity_multiplies_of": "Veelvouden van {{quantity}}",            │
+│  82      "quantity_minimum_of": "Minimum van {{quantity}}",                  │
+│  83      "quantity_maximum_of": "Maximum van {{quantity}}",                  │
+│  84      "selling_plan_subscription_type": "Abonnementstype",                │
+│  85      "discount_badge": "{{percentage}} % korting",                       │
+│  86      "discount_badge_html": "<span                                       │
+│  class=\"percentage\">{{percentage}}</span>% korting",                       │
+│  87      "variant_info": "Beschikbaar binnen ",                              │
+│  88      "variant_info_one_option": "Beschikbaar in {{                       │
+│  option_count_and_name }}",                                                  │
+│  89      "variant_info_multiple_options": "Beschikbaar in {{                 │
+│  options_count_and_name }} en {{ option_last_count_and_name }}",             │
+│  90      "preorder": "Nu pre-orderen",                                       │
+│  91      "preorder_badge": "Pre-order",                                      │
+│  92      "preorder_info": "Dit product is momenteel beschikbaar voor         │
+│  pre-order.",                                                                │
+│  93      "preorder_notice": "Dit product wordt verzonden op {{date}}.",      │
+│  94      "preorder_warning_html": "* Door op 'Pre-order' te klikken,         │
+│  <strong>erken ik dat ik een pre-order artikel koop, geen product op         │
+│  voorraad</strong>, en ga ik akkoord met de Voorwaarden van het pre-order    │
+│  proces.",                                                                   │
+│  95      "badges": {                                                         │
+│  96        "new": "Nieuw",                                                   │
+│  97        "best_seller": "Bestseller",                                      │
+│  98        "featured": "Aanbevolen",                                         │
+│  99        "on_sale": "In de aanbieding",                                    │
+│  100        "coming_soon": "Binnenkort beschikbaar",                         │
+│  101        "pre_order": "Pre-orderen",                                      │
+│  102        "sold_out": "Uitverkocht"                                        │
+│  103      }                                                                  │
+│  104    },                                                                   │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  locales/pl.json                                                             │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note' is missing                               │
+│                                                                              │
+│  114    "product": {                                                         │
+│  115      "label": "Produkt",                                                │
+│  116      "description": "Opis",                                             │
+│  117      "vendor": "Dostawca",                                              │
+│  118      "sku": "SKU",                                                      │
+│  119      "choose_options": "Wybierz opcje",                                 │
+│  120      "select_size": "Wybierz rozmiar",                                  │
+│  121      "view_product": "Zobacz produkt",                                  │
+│  122      "go_to_title": "Przejdź do {{title}}",                             │
+│  123      "go_back": "Wróć",                                                 │
+│  124      "unavailable": "Niedostępny",                                      │
+│  125      "sold_out": "Wyprzedany",                                          │
+│  126      "on_sale": "Wyprzedaż",                                            │
+│  127      "taxes_included": "Podatki wliczone.",                             │
+│  128      "duties_included": "Opłaty wliczone.",                             │
+│  129      "duties_and_taxes_included": "Opłaty i podatki wliczone.",         │
+│  130      "price_regular": "Cena regularna",                                 │
+│  131      "price_sale": "Cena promocyjna",                                   │
+│  132      "price_unit": "Cena jednostkowa",                                  │
+│  133      "unit_price_separator": "za",                                      │
+│  134      "price_min": "Cena minimalna",                                     │
+│  135      "price_max": "Cena maksymalna",                                    │
+│  136      "price_from": "Od",                                                │
+│  137      "subscription": "Subskrypcja",                                     │
+│  138      "view_subscription_policy": "Zobacz politykę subskrypcji",         │
+│  139      "from_price_per_html": "od {{price}}/sztuka",                      │
+│  140      "inventory_in_stock": "Na stanie",                                 │
+│  141      "inventory_in_stock_show_count": "{{quantity}} na stanie",         │
+│  142      "inventory_low_stock": "Pozostało tylko kilka sztuk. Zamów         │
+│  wkrótce.",                                                                  │
+│  143      "inventory_low_stock_show_count": "Pozostało tylko {{quantity}}    │
+│  sztuk na stanie. Zamów wkrótce.",                                           │
+│  144      "inventory_out_of_stock": "Brak na stanie",                        │
+│  145      "inventory_out_of_stock_continue_selling": "Na stanie",            │
+│  146      "pickup_available": "Odbiór dostępny",                             │
+│  147      "pickup_availability": "Dostępność odbioru",                       │
+│  148      "pickup_available_at_html": "Odbiór dostępny w <span               │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  149      "pickup_unavailable": "Odbiór niedostępny",                        │
+│  150      "pickup_unavailable_at_html": "Odbiór obecnie niedostępny w <span  │
+│   class=\"color-foreground\">{{location_name}}</span>",                      │
+│  151      "pickup_refresh_availability": "Odśwież dostępność",               │
+│  152      "pickup_view_store_info": "Zobacz informacje o sklepie",           │
+│  153      "pickup_check_other_stores": "Sprawdź dostępność w innych          │
+│  sklepach",                                                                  │
+│  154      "selling_plan_one_time_purchase": "Jednorazowy zakup",             │
+│  155      "selling_plan_purchase_options": "Opcje zakupu",                   │
+│  156      "size_guide": "Przewodnik po rozmiarach",                          │
+│  157      "quantity": "Ilość",                                               │
+│  158      "quantity_decrease_for_product": "Zmniejsz ilość dla               │
+│  {{product}}",                                                               │
+│  159      "quantity_increase_for_product": "Zwiększ ilość dla {{product}}",  │
+│  160      "shipping_policy_html": "<a href=\"{{link}}\">Wysyłka</a>          │
+│  obliczana przy kasie.",                                                     │
+│  161      "media_gallery": "Galeria mediów",                                 │
+│  162      "media_open_with_index": "Otwórz media {{index}} w modalnym",      │
+│  163      "media_xr_button": "Zobacz w swojej przestrzeni",                  │
+│  164      "media_xr_button_label": "Zobacz w swojej przestrzeni, ładuje      │
+│  przedmiot w oknie rozszerzonej rzeczywistości",                             │
+│  165      "quick_cart_empty": "Szybki koszyk jest obecnie pusty",            │
+│  166      "quick_cart_empty_content": "Nie wybrano jeszcze żadnego           │
+│  produktu.",                                                                 │
+│  167      "as_seen_on": "Jak widziano na",                                   │
+│  168      "as_seen_on_info": "{{brand}} używając ",                          │
+│  169      "optional": "Opcjonalnie",                                         │
+│  170      "variant_sold_out_or_unavailable": "Wariant wyprzedany lub         │
+│  niedostępny",                                                               │
+│  171      "value_unavailable": "{{ option_value }} - Niedostępny",           │
+│  172      "quantity_in_cart_html": "<span                                    │
+│  class=\"quantity-cart\">{{quantity}}</span> w koszyku",                     │
+│  173      "quantity_multiplies_of": "Wielokrotność {{quantity}}",            │
+│  174      "quantity_minimum_of": "Minimalna ilość {{quantity}}",             │
+│  175      "quantity_maximum_of": "Maksymalna ilość {{quantity}}",            │
+│  176      "selling_plan_subscription_type": "Rodzaj abonamentu",             │
+│  177      "discount_badge": "{{percentage}} % zniżki",                       │
+│  178      "discount_badge_html": "<span                                      │
+│  class=\"percentage\">{{percentage}}</span>% zniżki",                        │
+│  179      "variant_info": "Dostępne w ",                                     │
+│  180      "variant_info_one_option": "Dostępny w {{ option_count_and_name    │
+│  }}",                                                                        │
+│  181      "variant_info_multiple_options": "Dostępny w {{                    │
+│  options_count_and_name }} oraz {{ option_last_count_and_name }}",           │
+│  182      "preorder": "Zamów w przedsprzedaży",                              │
+│  183      "preorder_badge": "Przedsprzedaż",                                 │
+│  184      "preorder_info": "Ten produkt jest obecnie dostępny w              │
+│  przedsprzedaży.",                                                           │
+│  185      "preorder_notice": "Ten produkt zostanie wysłany {{date}}.",       │
+│  186      "preorder_warning_html": "* Klikając 'Zamów w przedsprzedaży',     │
+│  <strong>akceptuję, że kupuję produkt w przedsprzedaży, a nie produkt        │
+│  dostępny w magazynie</strong> i zgadzam się z warunkami procesu             │
+│  przedsprzedaży.",                                                           │
+│  187      "badges": {                                                        │
+│  188        "new": "Nowy",                                                   │
+│  189        "best_seller": "Najlepiej sprzedający się",                      │
+│  190        "featured": "Wyróżniony",                                        │
+│  191        "on_sale": "Na wyprzedaży",                                      │
+│  192        "coming_soon": "Wkrótce dostępny",                               │
+│  193        "pre_order": "Zamów w przedsprzedaży",                           │
+│  194        "sold_out": "Wyprzedany"                                         │
+│  195      }                                                                  │
+│  196    },                                                                   │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note_placeholder' is missing                   │
+│                                                                              │
+│  114    "product": {                                                         │
+│  115      "label": "Produkt",                                                │
+│  116      "description": "Opis",                                             │
+│  117      "vendor": "Dostawca",                                              │
+│  118      "sku": "SKU",                                                      │
+│  119      "choose_options": "Wybierz opcje",                                 │
+│  120      "select_size": "Wybierz rozmiar",                                  │
+│  121      "view_product": "Zobacz produkt",                                  │
+│  122      "go_to_title": "Przejdź do {{title}}",                             │
+│  123      "go_back": "Wróć",                                                 │
+│  124      "unavailable": "Niedostępny",                                      │
+│  125      "sold_out": "Wyprzedany",                                          │
+│  126      "on_sale": "Wyprzedaż",                                            │
+│  127      "taxes_included": "Podatki wliczone.",                             │
+│  128      "duties_included": "Opłaty wliczone.",                             │
+│  129      "duties_and_taxes_included": "Opłaty i podatki wliczone.",         │
+│  130      "price_regular": "Cena regularna",                                 │
+│  131      "price_sale": "Cena promocyjna",                                   │
+│  132      "price_unit": "Cena jednostkowa",                                  │
+│  133      "unit_price_separator": "za",                                      │
+│  134      "price_min": "Cena minimalna",                                     │
+│  135      "price_max": "Cena maksymalna",                                    │
+│  136      "price_from": "Od",                                                │
+│  137      "subscription": "Subskrypcja",                                     │
+│  138      "view_subscription_policy": "Zobacz politykę subskrypcji",         │
+│  139      "from_price_per_html": "od {{price}}/sztuka",                      │
+│  140      "inventory_in_stock": "Na stanie",                                 │
+│  141      "inventory_in_stock_show_count": "{{quantity}} na stanie",         │
+│  142      "inventory_low_stock": "Pozostało tylko kilka sztuk. Zamów         │
+│  wkrótce.",                                                                  │
+│  143      "inventory_low_stock_show_count": "Pozostało tylko {{quantity}}    │
+│  sztuk na stanie. Zamów wkrótce.",                                           │
+│  144      "inventory_out_of_stock": "Brak na stanie",                        │
+│  145      "inventory_out_of_stock_continue_selling": "Na stanie",            │
+│  146      "pickup_available": "Odbiór dostępny",                             │
+│  147      "pickup_availability": "Dostępność odbioru",                       │
+│  148      "pickup_available_at_html": "Odbiór dostępny w <span               │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  149      "pickup_unavailable": "Odbiór niedostępny",                        │
+│  150      "pickup_unavailable_at_html": "Odbiór obecnie niedostępny w <span  │
+│   class=\"color-foreground\">{{location_name}}</span>",                      │
+│  151      "pickup_refresh_availability": "Odśwież dostępność",               │
+│  152      "pickup_view_store_info": "Zobacz informacje o sklepie",           │
+│  153      "pickup_check_other_stores": "Sprawdź dostępność w innych          │
+│  sklepach",                                                                  │
+│  154      "selling_plan_one_time_purchase": "Jednorazowy zakup",             │
+│  155      "selling_plan_purchase_options": "Opcje zakupu",                   │
+│  156      "size_guide": "Przewodnik po rozmiarach",                          │
+│  157      "quantity": "Ilość",                                               │
+│  158      "quantity_decrease_for_product": "Zmniejsz ilość dla               │
+│  {{product}}",                                                               │
+│  159      "quantity_increase_for_product": "Zwiększ ilość dla {{product}}",  │
+│  160      "shipping_policy_html": "<a href=\"{{link}}\">Wysyłka</a>          │
+│  obliczana przy kasie.",                                                     │
+│  161      "media_gallery": "Galeria mediów",                                 │
+│  162      "media_open_with_index": "Otwórz media {{index}} w modalnym",      │
+│  163      "media_xr_button": "Zobacz w swojej przestrzeni",                  │
+│  164      "media_xr_button_label": "Zobacz w swojej przestrzeni, ładuje      │
+│  przedmiot w oknie rozszerzonej rzeczywistości",                             │
+│  165      "quick_cart_empty": "Szybki koszyk jest obecnie pusty",            │
+│  166      "quick_cart_empty_content": "Nie wybrano jeszcze żadnego           │
+│  produktu.",                                                                 │
+│  167      "as_seen_on": "Jak widziano na",                                   │
+│  168      "as_seen_on_info": "{{brand}} używając ",                          │
+│  169      "optional": "Opcjonalnie",                                         │
+│  170      "variant_sold_out_or_unavailable": "Wariant wyprzedany lub         │
+│  niedostępny",                                                               │
+│  171      "value_unavailable": "{{ option_value }} - Niedostępny",           │
+│  172      "quantity_in_cart_html": "<span                                    │
+│  class=\"quantity-cart\">{{quantity}}</span> w koszyku",                     │
+│  173      "quantity_multiplies_of": "Wielokrotność {{quantity}}",            │
+│  174      "quantity_minimum_of": "Minimalna ilość {{quantity}}",             │
+│  175      "quantity_maximum_of": "Maksymalna ilość {{quantity}}",            │
+│  176      "selling_plan_subscription_type": "Rodzaj abonamentu",             │
+│  177      "discount_badge": "{{percentage}} % zniżki",                       │
+│  178      "discount_badge_html": "<span                                      │
+│  class=\"percentage\">{{percentage}}</span>% zniżki",                        │
+│  179      "variant_info": "Dostępne w ",                                     │
+│  180      "variant_info_one_option": "Dostępny w {{ option_count_and_name    │
+│  }}",                                                                        │
+│  181      "variant_info_multiple_options": "Dostępny w {{                    │
+│  options_count_and_name }} oraz {{ option_last_count_and_name }}",           │
+│  182      "preorder": "Zamów w przedsprzedaży",                              │
+│  183      "preorder_badge": "Przedsprzedaż",                                 │
+│  184      "preorder_info": "Ten produkt jest obecnie dostępny w              │
+│  przedsprzedaży.",                                                           │
+│  185      "preorder_notice": "Ten produkt zostanie wysłany {{date}}.",       │
+│  186      "preorder_warning_html": "* Klikając 'Zamów w przedsprzedaży',     │
+│  <strong>akceptuję, że kupuję produkt w przedsprzedaży, a nie produkt        │
+│  dostępny w magazynie</strong> i zgadzam się z warunkami procesu             │
+│  przedsprzedaży.",                                                           │
+│  187      "badges": {                                                        │
+│  188        "new": "Nowy",                                                   │
+│  189        "best_seller": "Najlepiej sprzedający się",                      │
+│  190        "featured": "Wyróżniony",                                        │
+│  191        "on_sale": "Na wyprzedaży",                                      │
+│  192        "coming_soon": "Wkrótce dostępny",                               │
+│  193        "pre_order": "Zamów w przedsprzedaży",                           │
+│  194        "sold_out": "Wyprzedany"                                         │
+│  195      }                                                                  │
+│  196    },                                                                   │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  locales/pt.json                                                             │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note' is missing                               │
+│                                                                              │
+│  114    "product": {                                                         │
+│  115      "label": "Produto",                                                │
+│  116      "description": "Descrição",                                        │
+│  117      "vendor": "Fornecedor",                                            │
+│  118      "sku": "SKU",                                                      │
+│  119      "choose_options": "Escolher opções",                               │
+│  120      "select_size": "Selecionar tamanho",                               │
+│  121      "view_product": "Ver produto",                                     │
+│  122      "go_to_title": "Ir para {{title}}",                                │
+│  123      "go_back": "Voltar",                                               │
+│  124      "unavailable": "Indisponível",                                     │
+│  125      "sold_out": "Esgotado",                                            │
+│  126      "on_sale": "Em promoção",                                          │
+│  127      "taxes_included": "Impostos incluídos.",                           │
+│  128      "duties_included": "Taxas incluídas.",                             │
+│  129      "duties_and_taxes_included": "Taxas e impostos incluídos.",        │
+│  130      "price_regular": "Preço regular",                                  │
+│  131      "price_sale": "Preço promocional",                                 │
+│  132      "price_unit": "Preço unitário",                                    │
+│  133      "unit_price_separator": "por",                                     │
+│  134      "price_min": "Preço mínimo",                                       │
+│  135      "price_max": "Preço máximo",                                       │
+│  136      "price_from": "De",                                                │
+│  137      "subscription": "Assinatura",                                      │
+│  138      "view_subscription_policy": "Ver política de assinatura",          │
+│  139      "from_price_per_html": "de {{price}}/cada",                        │
+│  140      "inventory_in_stock": "Em estoque",                                │
+│  141      "inventory_in_stock_show_count": "{{quantity}} em estoque",        │
+│  142      "inventory_low_stock": "Restam poucos. Encomende logo.",           │
+│  143      "inventory_low_stock_show_count": "Restam apenas {{quantity}} em   │
+│  estoque. Encomende logo.",                                                  │
+│  144      "inventory_out_of_stock": "Fora de estoque",                       │
+│  145      "inventory_out_of_stock_continue_selling": "Em estoque",           │
+│  146      "pickup_available": "Retirada disponível",                         │
+│  147      "pickup_availability": "Disponibilidade de retirada",              │
+│  148      "pickup_available_at_html": "Retirada disponível em <span          │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  149      "pickup_unavailable": "Retirada indisponível",                     │
+│  150      "pickup_unavailable_at_html": "Retirada atualmente indisponível    │
+│  em <span class=\"color-foreground\">{{location_name}}</span>",              │
+│  151      "pickup_refresh_availability": "Atualizar disponibilidade",        │
+│  152      "pickup_view_store_info": "Ver informações da loja",               │
+│  153      "pickup_check_other_stores": "Verificar disponibilidade em outras  │
+│   lojas",                                                                    │
+│  154      "selling_plan_one_time_purchase": "Compra única",                  │
+│  155      "selling_plan_purchase_options": "Opções de compra",               │
+│  156      "size_guide": "Guia de tamanhos",                                  │
+│  157      "quantity": "Quantidade",                                          │
+│  158      "quantity_decrease_for_product": "Diminuir quantidade para         │
+│  {{product}}",                                                               │
+│  159      "quantity_increase_for_product": "Aumentar quantidade para         │
+│  {{product}}",                                                               │
+│  160      "shipping_policy_html": "<a href=\"{{link}}\">Frete</a> calculado  │
+│   na finalização da compra.",                                                │
+│  161      "media_gallery": "Galeria de mídia",                               │
+│  162      "media_open_with_index": "Abrir mídia {{index}} em modal",         │
+│  163      "media_xr_button": "Ver no seu espaço",                            │
+│  164      "media_xr_button_label": "Ver no seu espaço, carrega o item na     │
+│  janela de realidade aumentada",                                             │
+│  165      "quick_cart_empty": "O carrinho rápido está atualmente vazio",     │
+│  166      "quick_cart_empty_content": "Nenhum produto foi selecionado        │
+│  ainda.",                                                                    │
+│  167      "as_seen_on": "Como visto em",                                     │
+│  168      "as_seen_on_info": "{{brand}} usando ",                            │
+│  169      "optional": "Opcional",                                            │
+│  170      "variant_sold_out_or_unavailable": "Variante esgotada ou           │
+│  indisponível",                                                              │
+│  171      "value_unavailable": "{{ option_value }} - Indisponível",          │
+│  172      "quantity_in_cart_html": "<span                                    │
+│  class=\"quantity-cart\">{{quantity}}</span> no carrinho",                   │
+│  173      "quantity_multiplies_of": "Múltiplos de {{quantity}}",             │
+│  174      "quantity_minimum_of": "Mínimo de {{quantity}}",                   │
+│  175      "quantity_maximum_of": "Máximo de {{quantity}}",                   │
+│  176      "selling_plan_subscription_type": "Tipo de assinatura",            │
+│  177      "discount_badge": "{{percentage}} % de desconto",                  │
+│  178      "discount_badge_html": "<span                                      │
+│  class=\"percentage\">{{percentage}}</span>% de desconto",                   │
+│  179      "variant_info": "Disponível em ",                                  │
+│  180      "variant_info_one_option": "Disponível em {{                       │
+│  option_count_and_name }}",                                                  │
+│  181      "variant_info_multiple_options": "Disponível em {{                 │
+│  options_count_and_name }} e {{ option_last_count_and_name }}",              │
+│  182      "preorder": "Pré-encomendar agora",                                │
+│  183      "preorder_badge": "Pré-encomenda",                                 │
+│  184      "preorder_info": "Este produto está atualmente em                  │
+│  pré-encomenda.",                                                            │
+│  185      "preorder_notice": "Este produto será enviado em {{date}}.",       │
+│  186      "preorder_warning_html": "* Ao clicar em 'Pré-encomenda',          │
+│  <strong>reconheço que estou comprando um item em pré-encomenda, não um      │
+│  produto em estoque</strong> e concordo com os Termos e Condições do         │
+│  processo de pré-encomenda.",                                                │
+│  187      "badges": {                                                        │
+│  188        "new": "Novo",                                                   │
+│  189        "best_seller": "Mais vendido",                                   │
+│  190        "featured": "Em destaque",                                       │
+│  191        "on_sale": "Em promoção",                                        │
+│  192        "coming_soon": "Em breve",                                       │
+│  193        "pre_order": "Pré-encomenda",                                    │
+│  194        "sold_out": "Esgotado"                                           │
+│  195      }                                                                  │
+│  196    },                                                                   │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note_placeholder' is missing                   │
+│                                                                              │
+│  114    "product": {                                                         │
+│  115      "label": "Produto",                                                │
+│  116      "description": "Descrição",                                        │
+│  117      "vendor": "Fornecedor",                                            │
+│  118      "sku": "SKU",                                                      │
+│  119      "choose_options": "Escolher opções",                               │
+│  120      "select_size": "Selecionar tamanho",                               │
+│  121      "view_product": "Ver produto",                                     │
+│  122      "go_to_title": "Ir para {{title}}",                                │
+│  123      "go_back": "Voltar",                                               │
+│  124      "unavailable": "Indisponível",                                     │
+│  125      "sold_out": "Esgotado",                                            │
+│  126      "on_sale": "Em promoção",                                          │
+│  127      "taxes_included": "Impostos incluídos.",                           │
+│  128      "duties_included": "Taxas incluídas.",                             │
+│  129      "duties_and_taxes_included": "Taxas e impostos incluídos.",        │
+│  130      "price_regular": "Preço regular",                                  │
+│  131      "price_sale": "Preço promocional",                                 │
+│  132      "price_unit": "Preço unitário",                                    │
+│  133      "unit_price_separator": "por",                                     │
+│  134      "price_min": "Preço mínimo",                                       │
+│  135      "price_max": "Preço máximo",                                       │
+│  136      "price_from": "De",                                                │
+│  137      "subscription": "Assinatura",                                      │
+│  138      "view_subscription_policy": "Ver política de assinatura",          │
+│  139      "from_price_per_html": "de {{price}}/cada",                        │
+│  140      "inventory_in_stock": "Em estoque",                                │
+│  141      "inventory_in_stock_show_count": "{{quantity}} em estoque",        │
+│  142      "inventory_low_stock": "Restam poucos. Encomende logo.",           │
+│  143      "inventory_low_stock_show_count": "Restam apenas {{quantity}} em   │
+│  estoque. Encomende logo.",                                                  │
+│  144      "inventory_out_of_stock": "Fora de estoque",                       │
+│  145      "inventory_out_of_stock_continue_selling": "Em estoque",           │
+│  146      "pickup_available": "Retirada disponível",                         │
+│  147      "pickup_availability": "Disponibilidade de retirada",              │
+│  148      "pickup_available_at_html": "Retirada disponível em <span          │
+│  class=\"color-foreground\">{{location_name}}</span>",                       │
+│  149      "pickup_unavailable": "Retirada indisponível",                     │
+│  150      "pickup_unavailable_at_html": "Retirada atualmente indisponível    │
+│  em <span class=\"color-foreground\">{{location_name}}</span>",              │
+│  151      "pickup_refresh_availability": "Atualizar disponibilidade",        │
+│  152      "pickup_view_store_info": "Ver informações da loja",               │
+│  153      "pickup_check_other_stores": "Verificar disponibilidade em outras  │
+│   lojas",                                                                    │
+│  154      "selling_plan_one_time_purchase": "Compra única",                  │
+│  155      "selling_plan_purchase_options": "Opções de compra",               │
+│  156      "size_guide": "Guia de tamanhos",                                  │
+│  157      "quantity": "Quantidade",                                          │
+│  158      "quantity_decrease_for_product": "Diminuir quantidade para         │
+│  {{product}}",                                                               │
+│  159      "quantity_increase_for_product": "Aumentar quantidade para         │
+│  {{product}}",                                                               │
+│  160      "shipping_policy_html": "<a href=\"{{link}}\">Frete</a> calculado  │
+│   na finalização da compra.",                                                │
+│  161      "media_gallery": "Galeria de mídia",                               │
+│  162      "media_open_with_index": "Abrir mídia {{index}} em modal",         │
+│  163      "media_xr_button": "Ver no seu espaço",                            │
+│  164      "media_xr_button_label": "Ver no seu espaço, carrega o item na     │
+│  janela de realidade aumentada",                                             │
+│  165      "quick_cart_empty": "O carrinho rápido está atualmente vazio",     │
+│  166      "quick_cart_empty_content": "Nenhum produto foi selecionado        │
+│  ainda.",                                                                    │
+│  167      "as_seen_on": "Como visto em",                                     │
+│  168      "as_seen_on_info": "{{brand}} usando ",                            │
+│  169      "optional": "Opcional",                                            │
+│  170      "variant_sold_out_or_unavailable": "Variante esgotada ou           │
+│  indisponível",                                                              │
+│  171      "value_unavailable": "{{ option_value }} - Indisponível",          │
+│  172      "quantity_in_cart_html": "<span                                    │
+│  class=\"quantity-cart\">{{quantity}}</span> no carrinho",                   │
+│  173      "quantity_multiplies_of": "Múltiplos de {{quantity}}",             │
+│  174      "quantity_minimum_of": "Mínimo de {{quantity}}",                   │
+│  175      "quantity_maximum_of": "Máximo de {{quantity}}",                   │
+│  176      "selling_plan_subscription_type": "Tipo de assinatura",            │
+│  177      "discount_badge": "{{percentage}} % de desconto",                  │
+│  178      "discount_badge_html": "<span                                      │
+│  class=\"percentage\">{{percentage}}</span>% de desconto",                   │
+│  179      "variant_info": "Disponível em ",                                  │
+│  180      "variant_info_one_option": "Disponível em {{                       │
+│  option_count_and_name }}",                                                  │
+│  181      "variant_info_multiple_options": "Disponível em {{                 │
+│  options_count_and_name }} e {{ option_last_count_and_name }}",              │
+│  182      "preorder": "Pré-encomendar agora",                                │
+│  183      "preorder_badge": "Pré-encomenda",                                 │
+│  184      "preorder_info": "Este produto está atualmente em                  │
+│  pré-encomenda.",                                                            │
+│  185      "preorder_notice": "Este produto será enviado em {{date}}.",       │
+│  186      "preorder_warning_html": "* Ao clicar em 'Pré-encomenda',          │
+│  <strong>reconheço que estou comprando um item em pré-encomenda, não um      │
+│  produto em estoque</strong> e concordo com os Termos e Condições do         │
+│  processo de pré-encomenda.",                                                │
+│  187      "badges": {                                                        │
+│  188        "new": "Novo",                                                   │
+│  189        "best_seller": "Mais vendido",                                   │
+│  190        "featured": "Em destaque",                                       │
+│  191        "on_sale": "Em promoção",                                        │
+│  192        "coming_soon": "Em breve",                                       │
+│  193        "pre_order": "Pré-encomenda",                                    │
+│  194        "sold_out": "Esgotado"                                           │
+│  195      }                                                                  │
+│  196    },                                                                   │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  locales/tr.json                                                             │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note' is missing                               │
+│                                                                              │
+│  114    "product": {                                                         │
+│  115      "label": "Ürün",                                                   │
+│  116      "description": "Açıklama",                                         │
+│  117      "vendor": "Satıcı",                                                │
+│  118      "sku": "SKU",                                                      │
+│  119      "choose_options": "Seçenekleri seçin",                             │
+│  120      "select_size": "Beden seçin",                                      │
+│  121      "view_product": "Ürünü görüntüle",                                 │
+│  122      "go_to_title": "{{title}} ürününe git",                            │
+│  123      "go_back": "Geri git",                                             │
+│  124      "unavailable": "Mevcut değil",                                     │
+│  125      "sold_out": "Tükendi",                                             │
+│  126      "on_sale": "İndirim",                                              │
+│  127      "taxes_included": "Vergiler dahil.",                               │
+│  128      "duties_included": "Harçlar dahil.",                               │
+│  129      "duties_and_taxes_included": "Harçlar ve vergiler dahil.",         │
+│  130      "price_regular": "Normal fiyat",                                   │
+│  131      "price_sale": "İndirimli fiyat",                                   │
+│  132      "price_unit": "Birim fiyat",                                       │
+│  133      "unit_price_separator": "/",                                       │
+│  134      "price_min": "Minimum fiyat",                                      │
+│  135      "price_max": "Maksimum fiyat",                                     │
+│  136      "price_from": "Başlangıç fiyatı",                                  │
+│  137      "subscription": "Abonelik",                                        │
+│  138      "view_subscription_policy": "Abonelik politikasını görüntüle",     │
+│  139      "from_price_per_html": "Adet: {{price}}",                          │
+│  140      "inventory_in_stock": "Stokta",                                    │
+│  141      "inventory_in_stock_show_count": "Stokta {{quantity}} adet var",   │
+│  142      "inventory_low_stock": "Stokta çok az kaldı. Hemen sipariş         │
+│  verin.",                                                                    │
+│  143      "inventory_low_stock_show_count": "Stokta sadece {{quantity}}      │
+│  adet kaldı. Hemen sipariş verin.",                                          │
+│  144      "inventory_out_of_stock": "Stokta yok",                            │
+│  145      "inventory_out_of_stock_continue_selling": "Stokta",               │
+│  146      "pickup_available": "Teslim alma mevcut",                          │
+│  147      "pickup_availability": "Teslim alma durumu",                       │
+│  148      "pickup_available_at_html": "<span                                 │
+│  class=\"color-foreground\">{{location_name}}</span> adresinden teslim       │
+│  alınabilir",                                                                │
+│  149      "pickup_unavailable": "Teslim alma kullanılamıyor",                │
+│  150      "pickup_unavailable_at_html": "Şu anda <span                       │
+│  class=\"color-foreground\">{{location_name}}</span> adresinden teslim alma  │
+│   kullanılamıyor",                                                           │
+│  151      "pickup_refresh_availability": "Teslim alma durumunu yenile",      │
+│  152      "pickup_view_store_info": "Mağaza bilgilerini görüntüle",          │
+│  153      "pickup_check_other_stores": "Diğer mağazalardaki stok durumunu    │
+│  kontrol edin",                                                              │
+│  154      "selling_plan_one_time_purchase": "Tek seferlik satın alma",       │
+│  155      "selling_plan_purchase_options": "Satın alma seçenekleri",         │
+│  156      "size_guide": "Ölçü Rehberi",                                      │
+│  157      "quantity": "Miktar",                                              │
+│  158      "quantity_decrease_for_product": "{{product}} için miktarı         │
+│  azaltın",                                                                   │
+│  159      "quantity_increase_for_product": "{{product}} için miktarı         │
+│  artırın",                                                                   │
+│  160      "shipping_policy_html": "<a href=\"{{link}}\">Gönderim bedeli</a>  │
+│   ödeme sırasında hesaplanır.",                                              │
+│  161      "media_gallery": "Medya Galerisi",                                 │
+│  162      "media_open_with_index": "{{index}} medyasını açın",               │
+│  163      "media_xr_button": "Kendi alanınızda görüntüleyin",                │
+│  164      "media_xr_button_label": "Kendi alanınızda görüntülemeniz için     │
+│  öğe artırılmış gerçeklik penceresinde yüklenir",                            │
+│  165      "quick_cart_empty": "Hızlı sepet şu anda boş",                     │
+│  166      "quick_cart_empty_content": "Henüz ürün seçilmedi.",               │
+│  167      "as_seen_on": "Görüldüğü gibi",                                    │
+│  168      "as_seen_on_info": "{{brand}} kullanıyor",                         │
+│  169      "optional": "İsteğe bağlı",                                        │
+│  170      "variant_sold_out_or_unavailable": "Varyant tükendi veya mevcut    │
+│  değil",                                                                     │
+│  171      "value_unavailable": "{{ option_value }} - Mevcut değil",          │
+│  172      "quantity_in_cart_html": "<span                                    │
+│  class=\"quantity-cart\">{{quantity}}</span> sepetinde",                     │
+│  173      "quantity_multiplies_of": "{{quantity}} katları",                  │
+│  174      "quantity_minimum_of": "Minimum {{quantity}}",                     │
+│  175      "quantity_maximum_of": "Maksimum {{quantity}}",                    │
+│  176      "selling_plan_subscription_type": "Abonelik türü",                 │
+│  177      "discount_badge": "% {{percentage}} indirim",                      │
+│  178      "discount_badge_html": "%<span                                     │
+│  class=\"percentage\">{{percentage}}</span> indirim",                        │
+│  179      "variant_info": "Mevcut ",                                         │
+│  180      "variant_info_one_option": "{{ option_count_and_name }} seçeneği   │
+│  mevcut",                                                                    │
+│  181      "variant_info_multiple_options": "{{ options_count_and_name }} ve  │
+│   {{ option_last_count_and_name }} seçenekleri mevcut",                      │
+│  182      "preorder": "Şimdi ön sipariş ver",                                │
+│  183      "preorder_badge": "Ön sipariş",                                    │
+│  184      "preorder_info": "Bu ürün şu anda ön sipariştedir.",               │
+│  185      "preorder_notice": "Bu ürün {{date}} tarihinde gönderilecektir.",  │
+│  186      "preorder_warning_html": "* 'Ön sipariş ver' butonuna tıklayarak,  │
+│   <strong>stokta olan bir ürün değil, bir ön sipariş ürünü satın aldığımı    │
+│  kabul ediyorum</strong> ve ön sipariş sürecinin Şartlar ve Koşullarını      │
+│  kabul ediyorum.",                                                           │
+│  187      "badges": {                                                        │
+│  188        "new": "Yeni",                                                   │
+│  189        "best_seller": "En çok satan",                                   │
+│  190        "featured": "Öne çıkan",                                         │
+│  191        "on_sale": "İndirimde",                                          │
+│  192        "coming_soon": "Yakında",                                        │
+│  193        "pre_order": "Ön sipariş",                                       │
+│  194        "sold_out": "Tükendi"                                            │
+│  195      }                                                                  │
+│  196    },                                                                   │
+│                                                                              │
+│                                                                              │
+│  [error]: MatchingTranslations                                               │
+│  The translation for 'product.note_placeholder' is missing                   │
+│                                                                              │
+│  114    "product": {                                                         │
+│  115      "label": "Ürün",                                                   │
+│  116      "description": "Açıklama",                                         │
+│  117      "vendor": "Satıcı",                                                │
+│  118      "sku": "SKU",                                                      │
+│  119      "choose_options": "Seçenekleri seçin",                             │
+│  120      "select_size": "Beden seçin",                                      │
+│  121      "view_product": "Ürünü görüntüle",                                 │
+│  122      "go_to_title": "{{title}} ürününe git",                            │
+│  123      "go_back": "Geri git",                                             │
+│  124      "unavailable": "Mevcut değil",                                     │
+│  125      "sold_out": "Tükendi",                                             │
+│  126      "on_sale": "İndirim",                                              │
+│  127      "taxes_included": "Vergiler dahil.",                               │
+│  128      "duties_included": "Harçlar dahil.",                               │
+│  129      "duties_and_taxes_included": "Harçlar ve vergiler dahil.",         │
+│  130      "price_regular": "Normal fiyat",                                   │
+│  131      "price_sale": "İndirimli fiyat",                                   │
+│  132      "price_unit": "Birim fiyat",                                       │
+│  133      "unit_price_separator": "/",                                       │
+│  134      "price_min": "Minimum fiyat",                                      │
+│  135      "price_max": "Maksimum fiyat",                                     │
+│  136      "price_from": "Başlangıç fiyatı",                                  │
+│  137      "subscription": "Abonelik",                                        │
+│  138      "view_subscription_policy": "Abonelik politikasını görüntüle",     │
+│  139      "from_price_per_html": "Adet: {{price}}",                          │
+│  140      "inventory_in_stock": "Stokta",                                    │
+│  141      "inventory_in_stock_show_count": "Stokta {{quantity}} adet var",   │
+│  142      "inventory_low_stock": "Stokta çok az kaldı. Hemen sipariş         │
+│  verin.",                                                                    │
+│  143      "inventory_low_stock_show_count": "Stokta sadece {{quantity}}      │
+│  adet kaldı. Hemen sipariş verin.",                                          │
+│  144      "inventory_out_of_stock": "Stokta yok",                            │
+│  145      "inventory_out_of_stock_continue_selling": "Stokta",               │
+│  146      "pickup_available": "Teslim alma mevcut",                          │
+│  147      "pickup_availability": "Teslim alma durumu",                       │
+│  148      "pickup_available_at_html": "<span                                 │
+│  class=\"color-foreground\">{{location_name}}</span> adresinden teslim       │
+│  alınabilir",                                                                │
+│  149      "pickup_unavailable": "Teslim alma kullanılamıyor",                │
+│  150      "pickup_unavailable_at_html": "Şu anda <span                       │
+│  class=\"color-foreground\">{{location_name}}</span> adresinden teslim alma  │
+│   kullanılamıyor",                                                           │
+│  151      "pickup_refresh_availability": "Teslim alma durumunu yenile",      │
+│  152      "pickup_view_store_info": "Mağaza bilgilerini görüntüle",          │
+│  153      "pickup_check_other_stores": "Diğer mağazalardaki stok durumunu    │
+│  kontrol edin",                                                              │
+│  154      "selling_plan_one_time_purchase": "Tek seferlik satın alma",       │
+│  155      "selling_plan_purchase_options": "Satın alma seçenekleri",         │
+│  156      "size_guide": "Ölçü Rehberi",                                      │
+│  157      "quantity": "Miktar",                                              │
+│  158      "quantity_decrease_for_product": "{{product}} için miktarı         │
+│  azaltın",                                                                   │
+│  159      "quantity_increase_for_product": "{{product}} için miktarı         │
+│  artırın",                                                                   │
+│  160      "shipping_policy_html": "<a href=\"{{link}}\">Gönderim bedeli</a>  │
+│   ödeme sırasında hesaplanır.",                                              │
+│  161      "media_gallery": "Medya Galerisi",                                 │
+│  162      "media_open_with_index": "{{index}} medyasını açın",               │
+│  163      "media_xr_button": "Kendi alanınızda görüntüleyin",                │
+│  164      "media_xr_button_label": "Kendi alanınızda görüntülemeniz için     │
+│  öğe artırılmış gerçeklik penceresinde yüklenir",                            │
+│  165      "quick_cart_empty": "Hızlı sepet şu anda boş",                     │
+│  166      "quick_cart_empty_content": "Henüz ürün seçilmedi.",               │
+│  167      "as_seen_on": "Görüldüğü gibi",                                    │
+│  168      "as_seen_on_info": "{{brand}} kullanıyor",                         │
+│  169      "optional": "İsteğe bağlı",                                        │
+│  170      "variant_sold_out_or_unavailable": "Varyant tükendi veya mevcut    │
+│  değil",                                                                     │
+│  171      "value_unavailable": "{{ option_value }} - Mevcut değil",          │
+│  172      "quantity_in_cart_html": "<span                                    │
+│  class=\"quantity-cart\">{{quantity}}</span> sepetinde",                     │
+│  173      "quantity_multiplies_of": "{{quantity}} katları",                  │
+│  174      "quantity_minimum_of": "Minimum {{quantity}}",                     │
+│  175      "quantity_maximum_of": "Maksimum {{quantity}}",                    │
+│  176      "selling_plan_subscription_type": "Abonelik türü",                 │
+│  177      "discount_badge": "% {{percentage}} indirim",                      │
+│  178      "discount_badge_html": "%<span                                     │
+│  class=\"percentage\">{{percentage}}</span> indirim",                        │
+│  179      "variant_info": "Mevcut ",                                         │
+│  180      "variant_info_one_option": "{{ option_count_and_name }} seçeneği   │
+│  mevcut",                                                                    │
+│  181      "variant_info_multiple_options": "{{ options_count_and_name }} ve  │
+│   {{ option_last_count_and_name }} seçenekleri mevcut",                      │
+│  182      "preorder": "Şimdi ön sipariş ver",                                │
+│  183      "preorder_badge": "Ön sipariş",                                    │
+│  184      "preorder_info": "Bu ürün şu anda ön sipariştedir.",               │
+│  185      "preorder_notice": "Bu ürün {{date}} tarihinde gönderilecektir.",  │
+│  186      "preorder_warning_html": "* 'Ön sipariş ver' butonuna tıklayarak,  │
+│   <strong>stokta olan bir ürün değil, bir ön sipariş ürünü satın aldığımı    │
+│  kabul ediyorum</strong> ve ön sipariş sürecinin Şartlar ve Koşullarını      │
+│  kabul ediyorum.",                                                           │
+│  187      "badges": {                                                        │
+│  188        "new": "Yeni",                                                   │
+│  189        "best_seller": "En çok satan",                                   │
+│  190        "featured": "Öne çıkan",                                         │
+│  191        "on_sale": "İndirimde",                                          │
+│  192        "coming_soon": "Yakında",                                        │
+│  193        "pre_order": "Ön sipariş",                                       │
+│  194        "sold_out": "Tükendi"                                            │
+│  195      }                                                                  │
+│  196    },                                                                   │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  sections/full-width-banner.liquid                                           │
+│                                                                              │
+│                                                                              │
+│  [warning]: UnusedAssign                                                     │
+│  The variable 'aspect_ratio' is assigned but not used                        │
+│                                                                              │
+│  39  assign aspect_ratio = section_image.aspect_ratio                        │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  sections/header.liquid                                                      │
+│                                                                              │
+│                                                                              │
+│  [warning]: HardcodedRoutes                                                  │
+│  Use routes object {{ routes.collections_url }} instead of hardcoding        │
+│  /collections                                                                │
+│                                                                              │
+│  400  href="/collections/latest-collection"                                  │
+│                                                                              │
+│                                                                              │
+│  [warning]: HardcodedRoutes                                                  │
+│  Use routes object {{ routes.collections_url }} instead of hardcoding        │
+│  /collections                                                                │
+│                                                                              │
+│  409  href="/collections/ready-to-wear"                                      │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  sections/highlighted-product.liquid                                         │
+│                                                                              │
+│                                                                              │
+│  [warning]: BlockIdUsage                                                     │
+│  The ID is dynamically generated by Shopify and is subject to change. You    │
+│  should avoid relying on a literal value of this ID.                         │
+│                                                                              │
+│  541  {% if block.id == content_grid_first.id %}                             │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  sections/main-product.liquid                                                │
+│                                                                              │
+│                                                                              │
+│  [warning]: UnusedAssign                                                     │
+│  The variable 'seo_media' is assigned but not used                           │
+│                                                                              │
+│  220  assign seo_media = product.featured_media                              │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  snippets/card-product.liquid                                                │
+│                                                                              │
+│                                                                              │
+│  [warning]: UnusedAssign                                                     │
+│  The variable 'swatch_info_class' is assigned but not used                   │
+│                                                                              │
+│  243  {%- capture swatch_info_class -%}                                      │
+│                                                                              │
+│                                                                              │
+│  [warning]: UnusedAssign                                                     │
+│  The variable 'selected_variant_color' is assigned but not used              │
+│                                                                              │
+│  295  assign selected_variant_color = option_value                           │
+│                                                                              │
+│                                                                              │
+│  [warning]: UnusedAssign                                                     │
+│  The variable 'input_is_disabled' is assigned but not used                   │
+│                                                                              │
+│  344  assign input_is_disabled = true                                        │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  snippets/facet.liquid                                                       │
+│                                                                              │
+│                                                                              │
+│  [warning]: UnusedAssign                                                     │
+│  The variable 'uses_comma_decimals' is assigned but not used                 │
+│                                                                              │
+│  5  assign uses_comma_decimals = true                                        │
+│                                                                              │
+│                                                                              │
+│  [warning]: UnusedAssign                                                     │
+│  The variable 'filter_label' is assigned but not used                        │
+│                                                                              │
+│  165  assign filter_label = filter.label | escape                            │
+│                                                                              │
+│                                                                              │
+│  [warning]: UnusedAssign                                                     │
+│  The variable 'max' is assigned but not used                                 │
+│                                                                              │
+│  178  assign max = nil                                                       │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  snippets/main-product__info-blocks.liquid                                   │
+│                                                                              │
+│                                                                              │
+│  [warning]: BlockIdUsage                                                     │
+│  The ID is dynamically generated by Shopify and is subject to change. You    │
+│  should avoid relying on a literal value of this ID.                         │
+│                                                                              │
+│  709  {% if block.id == content_grid_first.id %}                             │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  snippets/navigation-drawer.liquid                                           │
+│                                                                              │
+│                                                                              │
+│  [warning]: HardcodedRoutes                                                  │
+│  Use routes object {{ routes.root_url }} instead of hardcoding /             │
+│                                                                              │
+│  29  <a href="/" class="h4">                                                 │
+│                                                                              │
+│                                                                              │
+│  [warning]: HardcodedRoutes                                                  │
+│  Use routes object {{ routes.collections_url }} instead of hardcoding        │
+│  /collections                                                                │
+│                                                                              │
+│  34  <a href="/collections/latest-collection" class="h4">                    │
+│                                                                              │
+│                                                                              │
+│  [warning]: HardcodedRoutes                                                  │
+│  Use routes object {{ routes.collections_url }} instead of hardcoding        │
+│  /collections                                                                │
+│                                                                              │
+│  39  <a href="/collections/ready-to-wear" class="h4">                        │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  snippets/quick-cart-product.liquid                                          │
+│                                                                              │
+│                                                                              │
+│  [warning]: UnusedAssign                                                     │
+│  The variable 'input_is_checked' is assigned but not used                    │
+│                                                                              │
+│  110  assign input_is_checked = true                                         │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  snippets/shipping-bar.liquid                                                │
+│                                                                              │
+│                                                                              │
+│  [warning]: OrphanedSnippet                                                  │
+│  This snippet is not referenced by any other files                           │
+│                                                                              │
+│  1  {% comment %}                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  snippets/srcset.liquid                                                      │
+│                                                                              │
+│                                                                              │
+│  [warning]: OrphanedSnippet                                                  │
+│  This snippet is not referenced by any other files                           │
+│                                                                              │
+│  1  {%- comment -%}                                                          │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+╭─ info ───────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  Theme Check Summary.                                                        │
+│                                                                              │
+│  181 files inspected with 42 total offenses found across 20 files.           │
+│  16 errors.                                                                  │
+│  26 warnings.                                                                │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+

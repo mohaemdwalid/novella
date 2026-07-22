@@ -1,0 +1,16 @@
+{
+  "order": [
+    "main"
+  ],
+  "sections": {
+    "main": {
+      "settings": {
+        "info_content": "",
+        "info_title": "",
+        "show_page_title": true,
+        "breadcrumbs": true
+      },
+      "type": "main-page"
+    }
+  }
+}

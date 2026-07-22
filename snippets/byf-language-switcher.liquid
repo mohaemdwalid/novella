@@ -1,0 +1,30 @@
+{%- comment -%}
+  Renders a compact language switcher for published Shopify languages.
+
+  Accepts:
+  - append_id {String}
+{%- endcomment -%}
+
+{%- if localization.available_languages.size > 1 -%}
+  <div class="byf-language-switcher" aria-label="{{ 'theme.localization.change_language' | t }}">
+    {%- for language in localization.available_languages -%}
+      {%- if language.iso_code == 'en' or language.iso_code == 'ar' -%}
+        {%- liquid
+          assign form_id = 'byf-language-' | append: append_id | append: '-' | append: language.iso_code
+          assign language_label = language.iso_code | upcase
+        -%}
+        {%- form 'localization', id: form_id, class: 'byf-language-switcher__form' -%}
+          <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
+          <input type="hidden" name="language_code" value="{{ language.iso_code }}">
+          <button
+            type="submit"
+            class="byf-language-switcher__button{% if language.iso_code == localization.language.iso_code %} is-active{% endif %}"
+            {% if language.iso_code == localization.language.iso_code %}aria-current="true"{% endif %}
+          >
+            {{- language_label -}}
+          </button>
+        {%- endform -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+{%- endif -%}

@@ -1,0 +1,318 @@
+{
+  "sections": {
+    "hero_banner_sage": {
+      "type": "hero-banner",
+      "blocks": {
+        "slide_sage": {
+          "type": "slide",
+          "settings": {
+            "banner_layout": "sage-hero-banner--full",
+            "color_scheme": "scheme-2",
+            "header_menu_text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "subheading_link": "",
+            "text": "",
+            "button_link_1": "shopify://collections/all",
+            "button_link_1_type": "button",
+            "button_label_1": "Shop now",
+            "button_style_1": "button--outlined",
+            "button_link_2": "",
+            "button_label_2": "",
+            "button_style_2": "button--outlined",
+            "content_position": "end",
+            "content_alignment": "center",
+            "image": "",
+            "video_external": "",
+            "show_controls_on_video": false,
+            "enable_media_overlay_desktop": true,
+            "content_position_mobile": "center",
+            "content_alignment_mobile": "center",
+            "image_mobile": "",
+            "video_external_mobile": "",
+            "show_controls_on_video_mobile": false,
+            "enable_media_overlay_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "slide_sage"
+      ],
+      "settings": {
+        "enable_transparent_header": true,
+        "slider_height_auto": false,
+        "slider_height": 100,
+        "slideshow_autoplay_interval": 6,
+        "show_slideshow_navigation": true,
+        "slideshow_navigation_position": "sage-hero__swiper-buttons--sides",
+        "color_scheme_arrows": "scheme-2",
+        "show_slideshow_pagination": true,
+        "slideshow_pagination_style": "style-2",
+        "floating_bar": false
+      }
+    },
+    "featured_products_RtGR7Q": {
+      "type": "featured-products",
+      "blocks": {
+        "collection_PzqUtT": {
+          "type": "collection",
+          "settings": {
+            "title": "Latest collection",
+            "collection": "",
+            "products": [
+              "16",
+              "21",
+              "14",
+              "15",
+              "19",
+              "17",
+              "18",
+              "5",
+              "12"
+            ],
+            "vendor": "",
+            "collection_of_products": "",
+            "show_unavailable_products": false,
+            "card_text_heading": "",
+            "card_text_button_label": "",
+            "card_text_button_style": "button--filled",
+            "card_text_button_link": "",
+            "content_position": "center",
+            "content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_PzqUtT"
+      ],
+      "name": "t:sections.featured-products.name",
+      "settings": {
+        "layout": "layout-2",
+        "heading": "Best Seller",
+        "heading_size": "h3",
+        "subheading": "",
+        "button_label": "View all",
+        "button_link": "shopify://collections/all",
+        "button_style": "button--filled",
+        "max_products": 8,
+        "enable_slideshow_overflow": false,
+        "show_navigation_arrows": true,
+        "slideshow_autoplay_interval": 2,
+        "tab_button_style": "button--filled",
+        "section_width": "max-w-page",
+        "color_scheme": "",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
+    "featured_products_HQWKjp": {
+      "type": "featured-products",
+      "blocks": {
+        "collection_aHdM8q": {
+          "type": "collection",
+          "settings": {
+            "title": "Latest collection",
+            "collection": "latest",
+            "products": [],
+            "vendor": "",
+            "collection_of_products": "",
+            "show_unavailable_products": false,
+            "card_text_heading": "",
+            "card_text_button_label": "",
+            "card_text_button_style": "button--filled",
+            "card_text_button_link": "",
+            "content_position": "center",
+            "content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_aHdM8q"
+      ],
+      "custom_css": [],
+      "name": "t:sections.featured-products.name",
+      "settings": {
+        "layout": "layout-2",
+        "heading": "Latest collection",
+        "heading_size": "h3",
+        "subheading": "",
+        "button_label": "View all",
+        "button_link": "shopify://collections/latest-collection",
+        "button_style": "button--filled",
+        "max_products": 10,
+        "enable_slideshow_overflow": false,
+        "show_navigation_arrows": true,
+        "slideshow_autoplay_interval": 0,
+        "tab_button_style": "button--filled",
+        "section_width": "max-w-page",
+        "color_scheme": "scheme-1",
+        "spacing_top": "2",
+        "spacing_bottom": "2"
+      }
+    },
+    "dual_tiles_qjxNJP": {
+      "type": "dual-tiles",
+      "blocks": {
+        "tile_JiQV8z": {
+          "type": "tile",
+          "disabled": true,
+          "settings": {
+            "show_on": "both",
+            "color_scheme": "scheme-6",
+            "custom_background_color": "",
+            "heading": "",
+            "heading_size": "h6",
+            "text": "<h3>Timeless <em>classics</em></h3>",
+            "button_label": "Explore",
+            "button_link": "",
+            "button_style": "button--text",
+            "product": "",
+            "product_width": 24,
+            "show_other_elements_with_product": true,
+            "aspect_ratio": "1/1",
+            "vertical_position": "stretch",
+            "content_position": "justify-center",
+            "content_alignment": "text-center align-center",
+            "product_position": "0",
+            "video_external": "",
+            "show_controls_on_video": false,
+            "aspect_ratio_mobile": "auto",
+            "content_alignment_mobile": "text-center--mobile align-center--mobile",
+            "content_position_mobile": "justify-center--mobile",
+            "product_position_mobile": "0",
+            "video_external_mobile": "",
+            "show_controls_on_video_mobile": false,
+            "spacing_inner": "6"
+          }
+        },
+        "tile_GRQB6Y": {
+          "type": "tile",
+          "settings": {
+            "show_on": "both",
+            "color_scheme": "scheme-1",
+            "custom_background_color": "",
+            "heading": "Discover Novella",
+            "heading_size": "h3",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/all",
+            "button_style": "button--text",
+            "product": "",
+            "product_width": 24,
+            "show_other_elements_with_product": true,
+            "aspect_ratio": "2/1",
+            "vertical_position": "stretch",
+            "content_position": "justify-center",
+            "content_alignment": "text-center align-center",
+            "product_position": "0",
+            "video_external": "",
+            "show_controls_on_video": false,
+            "aspect_ratio_mobile": "auto",
+            "content_alignment_mobile": "text-center--mobile align-center--mobile",
+            "content_position_mobile": "justify-center--mobile",
+            "product_position_mobile": "0",
+            "video_external_mobile": "",
+            "show_controls_on_video_mobile": false,
+            "spacing_inner": "6"
+          }
+        }
+      },
+      "block_order": [
+        "tile_JiQV8z",
+        "tile_GRQB6Y"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_layout": "stacked",
+        "block_size": "half",
+        "block_order_mobile": false,
+        "heading": "",
+        "heading_size": "h3",
+        "heading_alignment": "start",
+        "color_scheme": "scheme-1",
+        "section_width": "max-w-full",
+        "spacing_top": "0",
+        "spacing_bottom": "0"
+      }
+    },
+    "full_width_banner_BAzegt": {
+      "type": "full-width-banner",
+      "blocks": {
+        "subheading_rAKhtj": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Novella",
+            "link": ""
+          }
+        },
+        "heading_U8BzAK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transform your <em>look </em>this season",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_YCULAK": {
+          "type": "buttons",
+          "settings": {
+            "button_link_1": "/",
+            "button_link_1_type": "button",
+            "button_label_1": "Shop now",
+            "button_style_1": "button--filled",
+            "color_scheme_first_button": "scheme-6",
+            "button_link_2": "/",
+            "button_label_2": "Explore",
+            "button_style_2": "button--outlined",
+            "color_scheme_second_button": "scheme-6"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rAKhtj",
+        "heading_U8BzAK",
+        "buttons_YCULAK"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_transparent_header": true,
+        "media_position": "background",
+        "section_height": "full",
+        "content_position": "center",
+        "content_alignment": "center",
+        "video_external": "",
+        "show_controls_on_video": false,
+        "aspect_ratio": "auto",
+        "section_height_mobile": "full",
+        "content_position_mobile": "center",
+        "content_alignment_mobile": "center",
+        "video_external_mobile": "",
+        "show_controls_on_video_mobile": false,
+        "aspect_ratio_mobile": "auto",
+        "section_width": "max-w-full",
+        "color_scheme": "",
+        "color_scheme_for_content": "scheme-6",
+        "spacing_inner": "0",
+        "spacing_top": "0",
+        "spacing_bottom": "0"
+      }
+    },
+    "custom_liquid_location_section": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"location-section\">\n  <hr class=\"section-divider\">\n\n  <div class=\"location-text\">\n    <h1>NOVELLA</h1>\n\n    <h2>أين تجدنا</h2>\n\n    <p>\n      معيذر – شارع الرويضات<br>\n      الدوحة – قطر\n    </p>\n  </div>\n\n  <hr class=\"text-map-divider\">\n\n  <div class=\"map-full\">\n    <iframe\n      src=\"https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3885.139644876634!2d51.406105075384154!3d25.271754977663083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE2JzE4LjMiTiA1McKwMjQnMzEuMyJF!5e1!3m2!1sen!2sqa!4v1770723326285!5m2!1sen!2sqa\"\n      loading=\"lazy\"\n      referrerpolicy=\"no-referrer-when-downgrade\"\n      allowfullscreen>\n    </iframe>\n  </div>\n</div>\n\n<style>\n@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap');\n\n.location-section{\n  font-family:'Tajawal', sans-serif;\n}\n\n.location-text{\n  max-width:1000px;\n  margin:0 auto;\n  padding:1px 20px 6px;\n  text-align:center;\n}\n\n.section-divider{\n  border:0;\n  border-top:1px solid #e6e6e6;\n  max-width:1000px;\n  margin:0 auto 90px;\n}\n\n.location-text h1{\n  font-size:14px;\n  letter-spacing:.35em;\n  font-weight:400;\n  margin-bottom:18px;\n}\n\n.location-text h2{\n  font-size:62px;\n  letter-spacing:0;\n  font-weight:300;\n  margin-bottom:22px;\n}\n\n.location-text p{\n  font-size:16px;\n  line-height:1.9;\n  margin-bottom:0;\n}\n\n.text-map-divider{\n  border:0;\n  border-top:1px solid #e6e6e6;\n  max-width:1000px;\n  margin:40px auto;\n}\n\n.map-full{\n  width:100%;\n  margin:60px 0 0;\n  border-top:1px solid #e6e6e6;\n}\n\n.map-full iframe{\n  width:100%;\n  height:420px;\n  border:0;\n  pointer-events:auto;\n}\n\n@media (min-width:1024px){\n  .location-text h1{\n    font-size:16px;\n  }\n\n  .location-text h2{\n    font-size:54px;\n    letter-spacing:0;\n  }\n\n  .location-text p{\n    font-size:18px;\n  }\n\n  .map-full iframe{\n    height:600px;\n  }\n}\n\n@media (min-width:1440px){\n  .location-text h2{\n    font-size:62px;\n    letter-spacing:0;\n  }\n\n  .map-full iframe{\n    height:700px;\n  }\n}\n</style>",
+        "section_width": "max-w-full",
+        "color_scheme": "scheme-1",
+        "spacing_top": "2",
+        "spacing_bottom": "0"
+      }
+    }
+  },
+  "order": [
+    "hero_banner_sage",
+    "featured_products_RtGR7Q",
+    "featured_products_HQWKjp",
+    "dual_tiles_qjxNJP",
+    "full_width_banner_BAzegt",
+    "custom_liquid_location_section"
+  ]
+}

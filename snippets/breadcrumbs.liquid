@@ -1,0 +1,111 @@
+{%- comment -%}
+  Accepts:
+  - class
+  - alignment
+  - product_collection
+{%- endcomment -%}
+
+{%- liquid
+  assign breadcrumb_alignment = alignment | default: blank
+  assign breadcrumb_class = class | default: ''
+
+  if breadcrumb_alignment != blank
+    assign breadcrumb_class = breadcrumb_class | append: ' breadcrumbs--' | append: breadcrumb_alignment
+  endif
+
+  assign current_label = page_title | escape
+
+  case template.name
+    when 'index'
+      assign current_label = 'theme.breadcrumb.home' | t
+    when 'collection'
+      assign current_label = collection.title | escape
+    when 'product'
+      assign current_label = product.title | escape
+    when 'article'
+      assign current_label = article.title | escape
+    when 'page'
+      assign current_label = page_title | escape
+    when 'search'
+      assign current_label = 'theme.breadcrumb.search' | t
+  endcase
+
+  assign breadcrumb_position = 2
+-%}
+
+<nav class="breadcrumbs no-scrollbar {{ breadcrumb_class }} {{ template.name }}__breadcrumbs" role="navigation" aria-label="{{- 'theme.breadcrumb.label' | t -}}" itemscope itemtype="https://schema.org/BreadcrumbList">
+  <ul class="breadcrumbs__list list-unstyled no-scrollbar" role="list">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="{{- routes.root_url -}}" itemprop="item">
+        <span itemprop="name" class="breadcrumbs__link button button--text">{{- 'theme.breadcrumb.home' | t -}}</span>
+      </a>
+      <meta itemprop="position" content="1">
+    </li>
+    <li class="breadcrumbs__separator">/</li>
+
+    {%- if product and collection -%}
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{- collection.url -}}" itemprop="item">
+          <span itemprop="name" class="breadcrumbs__link button button--text">{{- collection.title | escape -}}</span>
+        </a>
+        <meta itemprop="position" content="{{ breadcrumb_position }}">
+      </li>
+      <li class="breadcrumbs__separator">/</li>
+      {%- assign breadcrumb_position = breadcrumb_position | plus: 1 -%}
+    {%- endif -%}
+
+    {%- if product_collection -%}
+      {%- assign product_collection_first = product_collection -%}
+      {%- if product_collection_multiple -%}
+        {%- assign product_collection_first = product_collection | first -%}
+      {%- endif -%}
+
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        {%- if product_collection_multiple and product_collection.size > 1 -%}
+          <theme-dropdown class="theme-dropdown breadcrumbs__dropdown show-on--desktop">
+            <button itemprop="name" class="dropdown-button breadcrumbs__link button button--text">
+              {{- product_collection_first.title | escape -}}
+            </button>
+            <div class="dropdown-content">
+              <div class="dropdown-content__list slim-scrollbar">
+                {%- for col in product_collection -%}
+                  <a href="{{ col.url }}">{{ col.title }}</a>
+                {%- endfor -%}
+              </div>
+            </div>
+          </theme-dropdown>
+          <a href="{{- product_collection_first.url -}}" itemprop="item">
+            <span itemprop="name" class="breadcrumbs__link button button--text show-on--mobile">
+              {{- product_collection_first.title | escape -}}
+            </span>
+          </a>
+        {%- else -%}
+          <a href="{{- product_collection_first.url -}}" itemprop="item">
+            <span itemprop="name" class="breadcrumbs__link button button--text">
+              {{- product_collection_first.title | escape -}}
+            </span>
+          </a>
+        {%- endif -%}
+        <meta itemprop="position" content="{{ breadcrumb_position }}">
+      </li>
+      <li class="breadcrumbs__separator">/</li>
+      {%- assign breadcrumb_position = breadcrumb_position | plus: 1 -%}
+    {%- endif -%}
+
+    {%- if template.name == 'article' -%}
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{- blog.url -}}" title="{{- blog.title | escape -}}" itemprop="item">
+          <span itemprop="name" class="breadcrumbs__link button button--text">{{- blog.title | escape -}}</span>
+        </a>
+        <meta itemprop="position" content="{{ breadcrumb_position }}">
+      </li>
+      <li class="breadcrumbs__separator">/</li>
+      {%- assign breadcrumb_position = breadcrumb_position | plus: 1 -%}
+    {%- endif -%}
+
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">{{- current_label -}}</span>
+      <meta itemprop="position" content="{{ breadcrumb_position }}">
+    </li>
+  </ul>
+</nav>

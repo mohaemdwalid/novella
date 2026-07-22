@@ -457,9 +457,7 @@
           "secondary_button": "background",
           "on_secondary_button": "secondary_button_label",
           "secondary_button_border": "secondary_button_label"
-        },
-        "name": "Color schemes",
-        "label": "Color schemes"
+      }
       }
     ]
   },

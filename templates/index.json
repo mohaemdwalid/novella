@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_banner_sage": {
@@ -22,13 +31,13 @@
             "button_style_2": "button--outlined",
             "content_position": "end",
             "content_alignment": "center",
-            "image": "",
+            "image": "shopify://shop_images/Make_view_for_desktop_2k_delpmaspu.jpg",
             "video_external": "",
             "show_controls_on_video": false,
             "enable_media_overlay_desktop": true,
             "content_position_mobile": "center",
             "content_alignment_mobile": "center",
-            "image_mobile": "",
+            "image_mobile": "shopify://shop_images/Replace_the_abaya_on_the_model_to_this_abaya_offf__delpmaspu.jpg",
             "video_external_mobile": "",
             "show_controls_on_video_mobile": false,
             "enable_media_overlay_mobile": true
